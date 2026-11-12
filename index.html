@@ -1,0 +1,1669 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>HouseDesign.ph | House Plans from PRC-Licensed Filipino Architects</title>
+<meta name="description" content="Browse and buy complete house plans from PRC-licensed Filipino architects. Instant download after payment, or signed and sealed copies shipped by LBC.">
+<meta name="keywords" content="modern house design Philippines, permit ready house plans PH, Filipino bungalow floor plan, firewall house design 100sqm, buy architectural blueprints Philippines">
+<meta property="og:title" content="HouseDesign.ph">
+<meta property="og:description" content="The online marketplace for Filipino house plans, sold by PRC-licensed architects.">
+<meta property="og:url" content="https://housedesign.ph/">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#FAF8F5">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231A1A1A'/%3E%3Cpath d='M14 34 32 18l18 16v16H14z' fill='none' stroke='%23B5945B' stroke-width='4' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: a drafting-sheet marketplace. Pages are sheets on an alabaster table; listings are title-blocked drawings. */
+:root{
+  --bg:#FAF8F5;        /* warm alabaster */
+  --surface:#EFECE6;   /* soft travertine */
+  --ink:#1A1A1A;       /* deep charcoal */
+  --ink-2:#5B5750;     /* quiet text */
+  --cream:#F7F1E6;     /* featured band */
+  --gold:#B5945B;      /* brushed champagne gold */
+  --gold-ink:#8A6D3B;  /* gold for small text on light */
+  --sage:#3B4D3B;      /* tropical sage */
+  --line:#E2DDD5;      /* hairline */
+  --line-2:#CFC8BC;    /* stronger rule */
+  --paper:#FFFFFF;     /* drawing sheet */
+  --band:#1A1A1A;      /* dark band */
+  --band-ink:#FAF8F5;
+  --ok:#3B4D3B; --err:#A23B2A;
+  --display:"Cormorant Garamond","Iowan Old Style","Palatino Linotype",Georgia,serif;
+  --body:"Plus Jakarta Sans","Segoe UI",system-ui,-apple-system,sans-serif;
+  --r:2px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#141413;--surface:#1E1D1B;--cream:#1D1B17;--ink:#EDE9E2;--ink-2:#A9A39A;--gold:#C9A86E;--gold-ink:#D4B57D;--sage:#9DB59D;
+  --line:#2F2D29;--line-2:#45413B;--paper:#191917;--band:#0D0D0C;--band-ink:#EDE9E2;--ok:#9DB59D;--err:#E08A78;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141413;--surface:#1E1D1B;--cream:#1D1B17;--ink:#EDE9E2;--ink-2:#A9A39A;--gold:#C9A86E;--gold-ink:#D4B57D;--sage:#9DB59D;
+  --line:#2F2D29;--line-2:#45413B;--paper:#191917;--band:#0D0D0C;--band-ink:#EDE9E2;--ok:#9DB59D;--err:#E08A78;color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.6;letter-spacing:.02em;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--display);font-weight:500;letter-spacing:-.01em;line-height:1.1;text-wrap:balance;margin:0}
+h1{font-size:clamp(2.4rem,5.4vw,4.3rem)}
+h2{font-size:clamp(1.9rem,3.4vw,2.7rem)}
+h3{font-size:1.45rem;font-weight:600}
+p{margin:0}
+a{color:inherit}
+button,input,select{font:inherit;letter-spacing:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.eyebrow{font-size:.72rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-ink)}
+.muted{color:var(--ink-2)}
+.num{font-variant-numeric:tabular-nums}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;border-radius:var(--r);padding:.8em 1.4em;font-size:.78rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;border:1px solid var(--ink);background:var(--ink);color:var(--bg);cursor:pointer;text-decoration:none;transition:background .15s,color .15s,border-color .15s}
+.btn:hover{background:transparent;color:var(--ink)}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:#1A1A1A}
+.btn.gold:hover{background:transparent;color:var(--gold)}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line-2)}
+.btn.ghost:hover{border-color:var(--ink)}
+.btn.outline-gold{background:transparent;color:var(--gold-ink);border-color:var(--gold)}
+.btn.outline-gold:hover{background:var(--gold);color:#1A1A1A}
+
+/* pre-launch strip + header */
+.strip{background:var(--sage);color:#FAF8F5;font-size:.78rem;text-align:center;padding-block:.5em}
+.strip .wrap{display:flex;gap:.6em;justify-content:center;flex-wrap:wrap}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;align-items:center;gap:24px;padding-block:14px}
+.logo{font-family:var(--display);font-weight:600;font-size:1.3rem;letter-spacing:.15em;text-decoration:none;white-space:nowrap}
+.logo span{color:var(--gold)}
+nav.main{display:flex;gap:22px;margin-left:auto;font-size:.86rem}
+nav.main a{text-decoration:none;color:var(--ink-2);padding-block:4px;border-bottom:1px solid transparent}
+nav.main a:hover,nav.main a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--gold)}
+.menu-btn{display:none;margin-left:auto;background:none;border:1px solid var(--line-2);border-radius:var(--r);padding:.4em .7em;cursor:pointer;font-size:.8rem}
+@media (max-width:860px){
+  nav.main{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;background:var(--bg);border-bottom:1px solid var(--line);padding:8px max(16px,env(safe-area-inset-right,0px)) 12px max(16px,env(safe-area-inset-left,0px))}
+  nav.main.open{display:flex}
+  nav.main a{padding-block:10px;border-bottom:1px solid var(--line)}
+  .menu-btn{display:block}
+  .hdr-cta{display:none}
+}
+
+main{min-height:60vh}
+section{padding-block:72px}
+.section-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:16px;margin-bottom:32px}
+.section-head p{max-width:52ch}
+
+/* hero */
+.hero{padding-block:56px 64px}
+.hero-grid{display:grid;grid-template-columns:1fr 1.08fr;gap:48px;align-items:center}
+.hero-grid > *{min-width:0}
+.hero h1 em{font-style:italic;color:var(--gold-ink)}
+.hero .lede{font-size:1.05rem;color:var(--ink-2);max-width:48ch;margin-top:20px}
+.sheet{background:var(--paper);border:1px solid var(--line-2);border-radius:var(--r);position:relative}
+.hero-sheet{padding:14px}
+.hero-sheet .frame{border:1px solid var(--line-2);display:grid;grid-template-rows:1fr auto}
+.hero-sheet svg{display:block;width:100%;height:auto}
+.tblock{display:grid;grid-template-columns:1.4fr 1fr 1fr .8fr;border-top:1px solid var(--line-2);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase}
+.tblock div{padding:6px 8px;border-left:1px solid var(--line-2);min-width:0}
+.tblock div:first-child{border-left:0}
+.tblock b{display:block;font-size:.72rem;letter-spacing:.06em;color:var(--ink);font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tblock span{color:var(--ink-2)}
+@media (max-width:900px){.hero-grid{grid-template-columns:1fr}}
+
+/* search bar */
+.search{margin-top:32px;display:grid;grid-template-columns:repeat(3,1fr) auto;border:1px solid var(--line-2);background:var(--paper);border-radius:var(--r)}
+.search label{display:flex;flex-direction:column;padding:10px 14px;border-right:1px solid var(--line);min-width:0}
+.search label span{font-size:.64rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2)}
+.search select{border:0;background:transparent;padding:2px 0;font-size:.92rem;cursor:pointer;min-width:0}
+.search .btn{border-radius:0;margin:-1px -1px -1px 0}
+@media (max-width:640px){.search{grid-template-columns:1fr}.search label{border-right:0;border-bottom:1px solid var(--line)}.search .btn{margin:0}}
+
+/* trust bar */
+.trust{border-block:1px solid var(--line);background:var(--surface)}
+.trust .wrap{display:grid;grid-template-columns:repeat(3,1fr);padding-block:0}
+.trust .item{padding:24px 24px 24px 0;display:flex;gap:14px;align-items:flex-start}
+.trust .item + .item{padding-left:24px;border-left:1px solid var(--line)}
+.trust svg{flex:none;color:var(--gold)}
+.trust b{display:block;font-size:.92rem}
+.trust p{font-size:.84rem;color:var(--ink-2)}
+@media (max-width:760px){.trust .wrap{grid-template-columns:1fr}.trust .item + .item{padding-left:0;border-left:0;border-top:1px solid var(--line)}}
+
+/* cards */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:24px}
+.card{display:flex;flex-direction:column;background:var(--paper);border:1px solid var(--line);border-radius:var(--r);text-decoration:none;transition:border-color .15s,transform .15s}
+.card:hover{border-color:var(--gold);transform:translateY(-2px)}
+.card .art{aspect-ratio:16/10;background:var(--surface);border-bottom:1px solid var(--line);position:relative;overflow:hidden}
+.card .art svg{width:100%;height:100%;display:block}
+.chips{position:absolute;top:10px;left:10px;display:flex;gap:6px;flex-wrap:wrap}
+.chip{font-size:.6rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;padding:3px 7px;border-radius:var(--r);background:var(--paper);border:1px solid var(--line-2);color:var(--ink-2)}
+.chip.sample{background:var(--sage);border-color:var(--sage);color:#FAF8F5}
+.chip.fw{color:var(--gold-ink);border-color:var(--gold)}
+.card .body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:6px;flex:1}
+.card h3{font-size:1.5rem}
+.card .style{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2)}
+.specs{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:.82rem;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.price{margin-top:auto;padding-top:12px;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:baseline;font-size:.82rem;color:var(--ink-2)}
+.price b{font-size:1.05rem;color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums}
+
+/* steps (real sequence) */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line-2)}
+.step{padding:22px 22px 8px 0}
+.step + .step{padding-left:22px;border-left:1px solid var(--line)}
+.step .n{font-family:var(--display);font-size:2.2rem;color:var(--gold);line-height:1}
+.step b{display:block;margin:8px 0 6px;font-size:.98rem}
+.step p{font-size:.88rem;color:var(--ink-2)}
+@media (max-width:860px){.steps{grid-template-columns:1fr 1fr}.step:nth-child(3){padding-left:0;border-left:0}}
+@media (max-width:520px){.steps{grid-template-columns:1fr}.step + .step{padding-left:0;border-left:0;border-top:1px solid var(--line)}}
+
+/* dark band */
+.band{background:var(--band);color:var(--band-ink)}
+.band .eyebrow{color:var(--gold)}
+.band .muted{color:color-mix(in srgb,var(--band-ink) 70%,transparent)}
+.band-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:48px;align-items:center}
+.band-grid > *{min-width:0}
+.split{border:1px solid color-mix(in srgb,var(--band-ink) 22%,transparent);border-radius:var(--r)}
+.split .row{display:flex;justify-content:space-between;gap:12px;padding:12px 16px;border-top:1px solid color-mix(in srgb,var(--band-ink) 14%,transparent);font-variant-numeric:tabular-nums;font-size:.92rem}
+.split .row:first-child{border-top:0}
+.split .row.hl{color:var(--gold);font-weight:600}
+@media (max-width:860px){.band-grid{grid-template-columns:1fr}}
+
+/* browse */
+.browse{display:grid;grid-template-columns:260px 1fr;gap:32px;align-items:start}
+.browse > *{min-width:0}
+.filters{position:sticky;top:calc(env(safe-area-inset-top,0px) + 80px);display:flex;flex-direction:column;gap:18px;border:1px solid var(--line);background:var(--paper);padding:18px;border-radius:var(--r)}
+.field{display:flex;flex-direction:column;gap:6px}
+.field > span,.field legend{font-size:.66rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2)}
+.field select,.field input[type=text],.field input[type=email],.field input[type=number],.field input[type=url]{border:1px solid var(--line-2);background:var(--bg);border-radius:var(--r);padding:.6em .7em;font-size:.92rem;width:100%;min-width:0}
+.lotdims{display:grid;grid-template-columns:1fr auto 1fr;gap:6px;align-items:center}
+.lotdims i{font-style:normal;color:var(--ink-2)}
+.check{display:flex;gap:8px;align-items:center;font-size:.9rem;cursor:pointer}
+.check input{accent-color:var(--gold)}
+.hint{font-size:.78rem;color:var(--ink-2)}
+.results-bar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:18px;font-size:.86rem;color:var(--ink-2)}
+.results-bar select{border:1px solid var(--line-2);background:var(--paper);border-radius:var(--r);padding:.4em .6em}
+.empty{border:1px dashed var(--line-2);padding:40px;text-align:center;color:var(--ink-2);border-radius:var(--r)}
+@media (max-width:860px){.browse{grid-template-columns:1fr}.filters{position:static}}
+
+/* plan page */
+.crumbs{font-size:.8rem;color:var(--ink-2);padding-top:28px}
+.crumbs a{text-decoration:none}
+.crumbs a:hover{color:var(--ink)}
+.plan{display:grid;grid-template-columns:1.25fr 1fr;gap:40px;padding-block:20px 72px;align-items:start}
+.plan > *{min-width:0}
+.gallery .main{padding:12px}
+.gallery .main svg{width:100%;height:auto;display:block}
+.thumbs{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.thumbs button{flex:1 1 84px;min-width:0}
+.chip.int{color:var(--sage);border-color:var(--sage)}
+.pic-note{font-size:.8rem;color:var(--ink-2);margin-top:8px}
+.thumbs button{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:6px;cursor:pointer;text-align:left;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2)}
+.thumbs button[aria-pressed="true"]{border-color:var(--gold);color:var(--ink)}
+.thumbs svg{width:100%;height:auto;display:block;margin-bottom:4px;background:var(--surface)}
+.buy{position:sticky;top:calc(env(safe-area-inset-top,0px) + 80px);display:flex;flex-direction:column;gap:18px}
+.buy h1{font-size:clamp(2.1rem,4vw,3rem)}
+.seller{font-size:.84rem;border:1px solid var(--line);background:var(--surface);padding:10px 12px;border-radius:var(--r)}
+.tiers{display:flex;flex-direction:column;gap:10px;border:0;padding:0;margin:0}
+.tier{display:grid;grid-template-columns:auto 1fr auto;gap:4px 12px;align-items:start;border:1px solid var(--line-2);background:var(--paper);padding:14px 16px;border-radius:var(--r);cursor:pointer}
+.tier:has(input:checked){border-color:var(--gold);box-shadow:inset 3px 0 0 var(--gold)}
+.tier input{margin-top:5px;accent-color:var(--gold)}
+.tier b{font-size:.95rem}
+.tier .p{font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+.tier p{grid-column:2 / 4;font-size:.84rem;color:var(--ink-2)}
+.tier .tag{font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-ink);font-weight:600;margin-left:6px}
+.actions{display:flex;flex-direction:column;gap:10px}
+.actions .btn{width:100%}
+.note{font-size:.8rem;color:var(--ink-2)}
+@media (max-width:900px){.plan{grid-template-columns:1fr}.buy{position:static}}
+
+.tabs{margin-top:40px;border-top:1px solid var(--line-2)}
+.tablist{display:flex;gap:0;overflow-x:auto;border-bottom:1px solid var(--line)}
+.tablist button{background:none;border:0;border-bottom:2px solid transparent;padding:14px 18px 12px 0;margin-right:18px;font-size:.78rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2);cursor:pointer;white-space:nowrap}
+.tablist button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--gold)}
+.tabpanel{padding-top:20px}
+dl.spec{display:grid;grid-template-columns:max-content 1fr;gap:0;margin:0;font-size:.9rem}
+dl.spec dt,dl.spec dd{padding:9px 0;border-bottom:1px solid var(--line);margin:0}
+dl.spec dt{color:var(--ink-2);padding-right:24px}
+dl.spec dd{font-variant-numeric:tabular-nums}
+.disc{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.disc h4{margin:0 0 6px;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase}
+.disc h4 small{color:var(--ink-2);font-weight:500;letter-spacing:.04em;text-transform:none}
+.disc ul{margin:0;padding:0;list-style:none;font-size:.86rem}
+.disc li{display:flex;gap:10px;padding:5px 0;border-bottom:1px solid var(--line)}
+.disc li code{font-family:var(--body);font-weight:600;color:var(--gold-ink);min-width:3.2em}
+@media (max-width:600px){.disc{grid-template-columns:1fr}}
+
+/* prose pages */
+.page-head{padding-block:56px 24px;border-bottom:1px solid var(--line)}
+.page-head p{max-width:60ch;margin-top:14px;color:var(--ink-2);font-size:1.02rem}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.two > *{min-width:0}
+@media (max-width:860px){.two{grid-template-columns:1fr;gap:32px}}
+.list{margin:0;padding:0;list-style:none}
+.list li{padding:12px 0;border-bottom:1px solid var(--line);display:flex;gap:12px}
+.list li svg{flex:none;margin-top:3px;color:var(--gold)}
+table.t{width:100%;border-collapse:collapse;font-size:.9rem}
+table.t th,table.t td{text-align:left;padding:10px 12px 10px 0;border-bottom:1px solid var(--line);vertical-align:top}
+table.t th{font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2);font-weight:600}
+.scroll-x{overflow-x:auto}
+
+/* calculator + forms */
+.calc{background:var(--paper);border:1px solid var(--line-2);border-radius:var(--r);padding:20px;display:flex;flex-direction:column;gap:14px}
+.calc .inputs{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.calc .out{border-top:1px solid var(--line);font-variant-numeric:tabular-nums}
+.calc .out div{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--line);font-size:.92rem}
+.calc .out .you{font-weight:600;color:var(--sage)}
+form.join{background:var(--paper);border:1px solid var(--line-2);border-radius:var(--r);padding:24px;display:flex;flex-direction:column;gap:14px}
+form.join .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:520px){form.join .row2,.calc .inputs{grid-template-columns:1fr}}
+.form-msg{font-size:.86rem;min-height:1.2em}
+.form-msg.ok{color:var(--ok)}
+.form-msg.err{color:var(--err)}
+.done{border:1px solid var(--sage);color:var(--ink);padding:16px;border-radius:var(--r);font-size:.92rem}
+.done b{color:var(--sage)}
+
+/* footer */
+footer{background:var(--band);color:var(--band-ink);margin-top:0}
+footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px;padding-block:56px 32px}
+footer .cols > *{min-width:0}
+footer h5{margin:0 0 12px;font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:600}
+footer ul{list-style:none;margin:0;padding:0;font-size:.86rem;display:flex;flex-direction:column;gap:8px}
+footer a{text-decoration:none;color:color-mix(in srgb,var(--band-ink) 78%,transparent)}
+footer a:hover{color:var(--band-ink)}
+footer .legal{border-top:1px solid color-mix(in srgb,var(--band-ink) 16%,transparent);padding-block:20px 28px;font-size:.76rem;line-height:1.7;color:color-mix(in srgb,var(--band-ink) 62%,transparent)}
+footer .legal b{color:var(--band-ink);letter-spacing:.12em;font-size:.7rem}
+@media (max-width:860px){footer .cols{grid-template-columns:1fr 1fr}}
+@media (max-width:480px){footer .cols{grid-template-columns:1fr}}
+
+/* seller center */
+.sc-top{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;padding-block:36px 8px;border-bottom:1px solid var(--line)}
+.sc-top h1{font-size:clamp(2rem,4vw,2.8rem)}
+.preview-note{font-size:.78rem;color:var(--ink-2);border:1px dashed var(--line-2);padding:6px 10px;border-radius:var(--r)}
+.sc{display:grid;grid-template-columns:210px 1fr;gap:36px;padding-block:28px 72px}
+.sc > *{min-width:0}
+.sc-nav{position:sticky;top:calc(env(safe-area-inset-top,0px) + 80px);display:flex;flex-direction:column;gap:2px;align-self:start}
+.sc-nav button{display:flex;justify-content:space-between;align-items:center;gap:8px;text-align:left;background:none;border:0;border-left:2px solid transparent;padding:10px 14px;cursor:pointer;color:var(--ink-2);font-size:.92rem}
+.sc-nav button:hover{color:var(--ink)}
+.sc-nav button[aria-current="page"]{border-left-color:var(--gold);color:var(--ink);background:var(--surface)}
+.badge-n{font-size:.68rem;font-weight:600;background:var(--gold);color:#1A1A1A;border-radius:999px;padding:.05em .55em;font-variant-numeric:tabular-nums}
+@media (max-width:860px){.sc{grid-template-columns:1fr;gap:20px}.sc-nav{position:static;flex-direction:row;overflow-x:auto;border-bottom:1px solid var(--line);scrollbar-width:none}.sc-nav button{border-left:0;border-bottom:2px solid transparent;white-space:nowrap;padding:10px 12px}.sc-nav button[aria-current="page"]{border-bottom-color:var(--gold);background:none}}
+.sc-main{display:flex;flex-direction:column;gap:24px}
+.sc-main h2{font-size:1.9rem}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px}
+.panel h3{font-size:1.35rem;margin-bottom:12px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);background:var(--paper);border-radius:var(--r)}
+.stat{padding:16px 18px;border-left:1px solid var(--line);min-width:0}
+.stat:first-child{border-left:0}
+.stat span{font-size:.66rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2)}
+.stat b{display:block;font-family:var(--display);font-weight:500;font-size:2rem;line-height:1.1;margin-top:4px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.stat small{font-size:.78rem;color:var(--ink-2)}
+@media (max-width:760px){.stats{grid-template-columns:1fr 1fr}.stat:nth-child(3){border-left:0}.stat:nth-child(n+3){border-top:1px solid var(--line)}}
+.verify{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.verify li{padding:12px 12px 4px 0;border-top:2px solid var(--line-2);font-size:.86rem}
+.verify li + li{padding-left:12px}
+.verify li.v-done{border-top-color:var(--sage)}
+.verify li.v-now{border-top-color:var(--gold)}
+.verify li b{display:block;font-size:.88rem}
+.verify li small{color:var(--ink-2)}
+@media (max-width:640px){.verify{grid-template-columns:1fr 1fr;row-gap:12px}.verify li:nth-child(3){padding-left:0}}
+.todo{list-style:none;margin:0;padding:0}
+.todo li{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:12px 0;border-bottom:1px solid var(--line);font-size:.92rem}
+.todo li:last-child{border-bottom:0}
+.pill{display:inline-block;font-size:.64rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:3px 8px;border-radius:999px;border:1px solid var(--line-2);color:var(--ink-2);white-space:nowrap}
+.pill.ok{border-color:var(--sage);color:var(--sage)}
+.pill.wait{border-color:var(--gold);color:var(--gold-ink)}
+.pill.bad{border-color:var(--err);color:var(--err)}
+.btn.sm{padding:.55em 1em;font-size:.7rem}
+.lnk{background:none;border:0;padding:0;color:var(--gold-ink);font-weight:600;cursor:pointer;font-size:.86rem;text-decoration:underline;text-underline-offset:3px}
+table.t td .sub{display:block;font-size:.78rem;color:var(--ink-2)}
+.wiz{list-style:none;margin:0;padding:0;display:flex;gap:0;overflow-x:auto;border-bottom:1px solid var(--line);scrollbar-width:none}
+.wiz li{flex:1 0 auto;padding:10px 16px 10px 0;font-size:.8rem;color:var(--ink-2);display:flex;gap:8px;align-items:center;white-space:nowrap}
+.wiz li i{font-style:normal;width:22px;height:22px;border-radius:50%;border:1px solid var(--line-2);display:grid;place-items:center;font-size:.72rem;font-variant-numeric:tabular-nums}
+.wiz li.now{color:var(--ink);font-weight:600}
+.wiz li.now i{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.wiz li.done i{background:var(--sage);border-color:var(--sage);color:#FAF8F5}
+.fgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.fgrid .full{grid-column:1/-1}
+@media (max-width:560px){.fgrid{grid-template-columns:1fr}}
+.field textarea{border:1px solid var(--line-2);background:var(--bg);border-radius:var(--r);padding:.6em .7em;font-size:.92rem;width:100%;min-height:90px;resize:vertical;font:inherit}
+.toggle{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line-2);padding:12px 14px;border-radius:var(--r);cursor:pointer;background:var(--bg)}
+.toggle input{margin-top:4px;accent-color:var(--gold)}
+.toggle b{display:block;font-size:.92rem}
+.toggle small{color:var(--ink-2);font-size:.82rem}
+.slots{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:var(--r)}
+.slot{display:grid;grid-template-columns:44px 1fr auto;gap:12px;align-items:center;padding:12px 14px;border-top:1px solid var(--line)}
+.slot:first-child{border-top:0}
+.slot .code{font-weight:600;color:var(--gold-ink);font-size:.86rem}
+.slot .nm b{display:block;font-size:.92rem}
+.slot .nm small{color:var(--ink-2);font-size:.8rem;word-break:break-all}
+.slot .nm small.okf{color:var(--sage)}
+.slot .nm small.errf{color:var(--err)}
+.slot input[type=file]{position:absolute;width:1px;height:1px;opacity:0}
+.slot label.btn{cursor:pointer}
+.slot input[type=file]:focus-visible + label{outline:2px solid var(--gold);outline-offset:2px}
+@media (max-width:520px){.slot{grid-template-columns:36px 1fr}.slot label.btn{grid-column:2}}
+.signer{display:grid;grid-template-columns:1.2fr 1fr .8fr;gap:10px;align-items:end;padding:12px 0;border-bottom:1px solid var(--line)}
+.signer:last-child{border-bottom:0}
+.signer .who b{display:block;font-size:.9rem}
+.signer .who small{color:var(--ink-2);font-size:.78rem}
+@media (max-width:640px){.signer{grid-template-columns:1fr 1fr}.signer .who{grid-column:1/-1}}
+.wiz-actions{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center}
+.err-msg{color:var(--err);font-size:.86rem;min-height:1.2em}
+.keep{display:flex;justify-content:space-between;gap:12px;padding:8px 0;font-variant-numeric:tabular-nums;font-size:.92rem;border-bottom:1px solid var(--line)}
+.keep.you{font-weight:600;color:var(--sage);border-bottom:0}
+.inline-form{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.inline-form input{border:1px solid var(--line-2);background:var(--bg);border-radius:var(--r);padding:.5em .7em;font-size:.88rem;min-width:0;flex:1 1 180px}
+.formcard{background:var(--surface);border:1px solid var(--line);padding:10px 12px;font-size:.84rem;margin-top:8px;border-radius:var(--r)}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:.7em 1.2em;border-radius:var(--r);font-size:.88rem;z-index:20;max-width:calc(100% - 32px)}
+
+/* featured architects: cream band + swipe carousel */
+.featured{background:var(--cream);border-block:1px solid var(--line);padding-block:64px 48px;overflow:hidden}
+.feat-head{text-align:center;display:flex;flex-direction:column;align-items:center;gap:10px}
+.feat-head p{max-width:56ch;color:var(--ink-2)}
+.rot{font-size:.76rem;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.picker{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin:28px auto 0;max-width:1180px;padding:4px max(16px,env(safe-area-inset-right,0px)) 4px max(16px,env(safe-area-inset-left,0px));scroll-snap-type:x proximity}
+.picker::-webkit-scrollbar{display:none}
+.picker button{flex:none;scroll-snap-align:start;border:1px solid var(--line-2);background:transparent;border-radius:999px;padding:.5em 1.05em;font-size:.84rem;cursor:pointer;white-space:nowrap;color:var(--ink-2)}
+.picker button:hover{border-color:var(--ink);color:var(--ink)}
+.picker button[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.studio{text-align:center;margin-top:36px;display:flex;flex-direction:column;align-items:center;gap:12px}
+.studio h3{font-size:clamp(2rem,4vw,2.8rem);font-weight:500}
+.studio .who{font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-ink)}
+.studio p.blurb{font-size:1.06rem;max-width:52ch;color:var(--ink)}
+.btn.dark{background:var(--ink);border-color:var(--ink);color:var(--bg);border-radius:0;padding:.95em 2.6em;font-size:.82rem}
+.btn.dark:hover{background:transparent;color:var(--ink)}
+.car{display:flex;gap:28px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin-top:36px;padding-inline:calc(50% - min(37vw,230px));padding-block:4px 8px;scroll-behavior:smooth}
+.car::-webkit-scrollbar{display:none}
+.slide{flex:0 0 min(74vw,460px);scroll-snap-align:center;text-decoration:none;display:flex;flex-direction:column;gap:6px;transition:opacity .25s}
+.slide:not(.on){opacity:.55}
+.slide .pic{background:var(--paper);aspect-ratio:1/1;display:grid;place-items:center;border:1px solid var(--line);position:relative}
+.slide .pic svg{width:96%;height:auto}
+.slide .pic .chip{position:absolute;top:12px;left:12px}
+.slide b{font-family:var(--display);font-weight:500;font-size:1.65rem;line-height:1.15;margin-top:12px}
+.slide .meta{font-size:.82rem;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.slide .pr{font-size:1.02rem;font-variant-numeric:tabular-nums}
+.car-nav{display:flex;justify-content:center;align-items:center;gap:18px;margin-top:22px}
+.dots{display:flex;gap:10px;align-items:center}
+.dots button{width:8px;height:8px;border-radius:50%;border:0;padding:0;background:var(--line-2);cursor:pointer;transition:transform .2s,background .2s}
+.dots button[aria-current="true"]{background:var(--ink);transform:scale(1.5)}
+.arrow{width:38px;height:38px;border-radius:50%;border:1px solid var(--line-2);background:transparent;cursor:pointer;display:grid;place-items:center;color:var(--ink)}
+.arrow:hover{border-color:var(--ink)}
+.arrow:disabled{opacity:.35;cursor:default}
+.shopchip{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--gold);color:var(--ink);padding:.3em .4em .3em .8em;border-radius:999px;font-size:.8rem}
+.shopchip button{border:0;background:none;cursor:pointer;color:var(--ink-2);font-size:1rem;line-height:1;padding:0 .3em}
+@media (prefers-reduced-motion:reduce){.car{scroll-behavior:auto}.slide{transition:none}}
+
+.render{width:100%;height:100%;object-fit:cover;display:block}
+.gallery .main{position:relative}
+.gallery .main img.render{aspect-ratio:400/260;height:auto}
+.wm{position:absolute;right:10px;bottom:8px;font-size:.62rem;letter-spacing:.2em;font-weight:600;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.6);opacity:.9;pointer-events:none}
+.thumbs button{position:relative}
+.thumbs .wm{display:none}
+.thumbs img.render{aspect-ratio:400/260;height:auto;margin-bottom:4px}
+.slide .pic img.render{position:absolute;inset:0}
+.navbtn{background:none;border:0;padding:4px 0;font-size:.86rem;color:var(--ink-2);cursor:pointer;text-align:left}
+.navbtn:hover{color:var(--ink)}
+@media (max-width:860px){.navbtn{padding-block:10px}}
+.fade{animation:fade .35s ease both}
+@keyframes fade{from{opacity:.4;transform:translateY(4px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.fade{animation:none}.card,.card:hover{transition:none;transform:none}}
+</style>
+<style>html{color-scheme:light}body{margin:0;padding-top:env(safe-area-inset-top,0px)}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+
+
+<div class="strip"><div class="wrap"><b>Opening soon.</b><span>Listings marked Sample are examples. Checkout opens soon, so join the waitlist to be first.</span></div></div>
+
+<header class="top">
+  <div class="wrap" style="position:relative">
+    <a class="logo" href="#home">HOUSEDESIGN<span>.</span>PH</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav">Menu</button>
+    <nav class="main" id="mainNav" aria-label="Main">
+      <a href="#browse" data-nav="browse">Browse plans</a>
+      <a href="#how-it-works" data-nav="how-it-works">How it works</a>
+      <a href="#sell" data-nav="sell">Sell your plans</a>
+      <a href="#waitlist" data-nav="waitlist">Join the waitlist</a>
+      <a href="#seller-center" data-nav="seller-center">Seller Center</a>
+      <a href="#admin" data-nav="admin" id="navAdmin" hidden>Admin</a>
+      <a href="#sign-in" data-nav="sign-in" id="navSignIn">Sign in</a>
+      <button type="button" class="navbtn" id="navSignOut" hidden>Sign out</button>
+    </nav>
+    <a class="btn outline-gold hdr-cta" href="#sell" style="padding:.6em 1em">Open an architect shop</a>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<footer>
+  <div class="wrap cols">
+    <div>
+      <a class="logo" href="#home" style="color:var(--band-ink)">HOUSEDESIGN<span>.</span>PH</a>
+      <p style="margin-top:12px;font-size:.86rem;color:color-mix(in srgb,var(--band-ink) 70%,transparent);max-width:34ch">The online marketplace for Filipino house plans, sold by PRC-licensed architects.</p>
+    </div>
+    <div><h5>For lot owners</h5><ul>
+      <li><a href="#browse">Browse all plans</a></li>
+      <li><a href="#browse" data-style="Modern Tropical">Modern tropical</a></li>
+      <li><a href="#browse" data-firewall="1">Small lot and firewall</a></li>
+      <li><a href="#how-it-works">How buying works</a></li>
+    </ul></div>
+    <div><h5>For architects</h5><ul>
+      <li><a href="#sell">Open a seller shop</a></li>
+      <li><a href="#seller-center">Seller Center</a></li>
+      <li><a href="#sell">PRC verification</a></li>
+      <li><a href="#sell">Fees and payouts (20%)</a></li>
+    </ul></div>
+    <div><h5>Legal and support</h5><ul>
+      <li><a href="#how-it-works">Refund policy</a></li>
+      <li><span style="color:color-mix(in srgb,var(--band-ink) 55%,transparent)">Terms of service (at launch)</span></li>
+      <li><span style="color:color-mix(in srgb,var(--band-ink) 55%,transparent)">Data privacy policy, RA 10173 (at launch)</span></li>
+    </ul></div>
+  </div>
+  <div class="wrap legal">
+    <p><b>LEGAL NOTICE</b><br>House Design Hub Philippines is an online marketplace and does not itself provide architectural or engineering services. Each plan is the work and responsibility of the licensed seller who lists it. Soil, wind and seismic conditions vary by site. The buyer should have the plans reviewed for their lot and local rules under the National Building Code (PD 1096) before construction. Each purchase allows the buyer to build one house from the plans; copying or reselling the files is not allowed.</p>
+    <p style="margin-top:10px">© 2026 HouseDesign.ph · Payments processed by PayMongo.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script>
+/* ---------- data: sample listings ---------- */
+const PLANS = [
+  {slug:"narra-house",name:"Narra House",style:"Modern Tropical",storeys:2,fa:180,lotW:12,lotD:17,beds:3,baths:3,firewall:false,t1:18000,t2:52000,roof:"hip",louvres:true,garage:true,ceiling:"3.0 m",structure:"RC frame, CHB infill",roofing:"Long-span pre-painted, hip, 25° pitch"},
+  {slug:"solana-rowhouse",name:"Solana Rowhouse",style:"Contemporary",storeys:2,fa:115,lotW:7,lotD:14,beds:3,baths:2,firewall:true,t1:15000,t2:45000,roof:"shed",louvres:false,garage:false,ceiling:"2.8 m",structure:"RC frame, CHB infill, firewall one side",roofing:"Long-span, single slope 10°"},
+  {slug:"kamagong-bungalow",name:"Kamagong Bungalow",style:"Contemporary",storeys:1,fa:90,lotW:10,lotD:12,beds:2,baths:1,firewall:false,t1:12000,t2:42000,roof:"gable",louvres:false,garage:false,ceiling:"3.0 m",structure:"RC frame, CHB infill",roofing:"Long-span, gable 30° pitch"},
+  {slug:"molave-courtyard",name:"Molave Courtyard",style:"Modern Tropical",storeys:1,fa:140,lotW:15,lotD:18,beds:3,baths:2,firewall:false,t1:17000,t2:49000,roof:"hip",louvres:true,garage:true,ceiling:"3.2 m",structure:"RC frame, CHB infill",roofing:"Long-span, hip 25° pitch"},
+  {slug:"ylang-townhouse",name:"Ylang Townhouse",style:"Minimalist",storeys:3,fa:150,lotW:6,lotD:12,beds:3,baths:3,firewall:true,t1:19000,t2:56000,roof:"flat",louvres:false,garage:false,ceiling:"2.8 m",structure:"RC frame, firewalls both sides, roof deck slab",roofing:"RC roof deck with parapet"},
+  {slug:"bahay-modern",name:"Bahay Moderno",style:"Modern Filipino",storeys:1,fa:75,lotW:10,lotD:12,beds:2,baths:1,firewall:false,t1:12000,t2:40000,roof:"steep",louvres:true,garage:false,ceiling:"3.4 m",structure:"Raised RC frame on columns",roofing:"Long-span, steep gable 40° pitch"},
+  {slug:"sampaguita-villa",name:"Sampaguita Villa",style:"Mediterranean",storeys:2,fa:210,lotW:14,lotD:20,beds:4,baths:3,firewall:false,t1:20000,t2:60000,roof:"hip",louvres:false,arches:true,garage:true,ceiling:"3.0 m",structure:"RC frame, CHB infill",roofing:"Clay-profile tile, hip 25° pitch"},
+  {slug:"tindalo-corner",name:"Tindalo Corner House",style:"Minimalist",storeys:2,fa:165,lotW:12,lotD:15,beds:3,baths:3,firewall:false,t1:18000,t2:52000,roof:"shed",louvres:true,garage:true,ceiling:"3.0 m",structure:"RC frame, CHB infill",roofing:"Long-span, single slope 10°"}
+];
+/* sample shops: invented studio names, clearly marked as samples */
+const STUDIOS = [
+  {id:"ipil",name:"Ipil Design Studio",prof:"Architect",place:"Dasmariñas, Cavite",styles:["Modern Tropical","Contemporary"],blurb:"Breezy homes for subdivision lots, with deep eaves and cross-ventilation in every room."},
+  {id:"ligaya",name:"Casa Ligaya Architects",prof:"Architect",place:"Santa Rosa, Laguna",styles:["Mediterranean","Contemporary"],blurb:"Family homes with arched openings, shaded terraces and room to grow."},
+  {id:"habi",name:"Habi Atelier",prof:"Architect",place:"Lipa, Batangas",styles:["Modern Filipino","Modern Tropical"],blurb:"Raised floors, steep roofs and woven screens, drawn for today's codes."},
+  {id:"tahanan",name:"Tahanan Studio",prof:"Architect",place:"Imus, Cavite",styles:["Contemporary","Minimalist"],blurb:"Compact plans that make the most of 100 to 150 sqm lots."},
+  {id:"linya",name:"Linya Architecture",prof:"Architect",place:"Quezon City",styles:["Minimalist"],blurb:"Clean lines, firewall townhouses and roof decks for tight city lots."},
+  {id:"silong",name:"Silong Design + Build",prof:"Civil engineer",place:"Calamba, Laguna",styles:["Contemporary","Modern Tropical"],blurb:"Structure-first designs. Architectural sheets are signed by a partner architect."},
+  {id:"ugnay",name:"Ugnay Atelier",prof:"Architect",place:"Batangas City",styles:["Modern Tropical"],blurb:"Courtyard houses that open to the garden and stay cool without much aircon."},
+  {id:"lilim",name:"Lilim Studio",prof:"Architect",place:"Tagaytay, Cavite",styles:["Modern Filipino","Contemporary"],blurb:"Upland homes with big windows, sloped roofs and porches for cool afternoons."},
+  {id:"sinag",name:"Sinag Architects",prof:"Architect",place:"Biñan, Laguna",styles:["Contemporary","Minimalist"],blurb:"Bright two-storey homes with a carport and a plan that's easy to expand."},
+  {id:"haraya",name:"Haraya Design",prof:"Architect",place:"General Trias, Cavite",styles:["Mediterranean","Modern Tropical"],blurb:"Warm villas and bungalows for wider corner lots."},
+  {id:"dalisay",name:"Dalisay Studio",prof:"Architect",place:"Antipolo, Rizal",styles:["Minimalist","Contemporary"],blurb:"Simple, efficient houses that keep construction costs in check."},
+  {id:"bulwagan",name:"Bulwagan Engineering",prof:"Civil engineer",place:"Bacoor, Cavite",styles:["Contemporary"],blurb:"Practical rowhouses and duplexes. Architectural sheets are signed by a partner architect."},
+  {id:"kalinaw",name:"Kalinaw Studio",prof:"Architect",place:"San Pablo, Laguna",styles:["Modern Filipino","Modern Tropical"],blurb:"Quiet, low homes with wide verandas and plenty of shade."},
+  {id:"agos",name:"Agos Architects",prof:"Architect",place:"Nasugbu, Batangas",styles:["Modern Tropical","Mediterranean"],blurb:"Coastal homes built for strong wind, salt air and long rainy seasons."}
+];
+const rng = seed => () => { seed |= 0; seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; };
+(function makeSamplePlans(){
+  const trees=["Acacia","Banaba","Dapdap","Agoho","Talisay","Mayapis","Lauan","Bagras","Kalachuchi","Sampalok","Duhat","Balete","Tanguile","Apitong","Yakal","Akle","Bitaog","Dita","Guijo","Kalumpit","Lanete","Malugay","Pili","Santol","Tibig","Alupag","Bangkal","Dao","Hagakhak","Kamuning","Lumbang","Marang","Nato","Palosapis","Rimas","Salinggogon","Taluto","Bayabas","Kaimito","Langka","Atis","Mabolo","Anahaw","Buri","Nipa","Pandan"];
+  const sfx={1:["Bungalow","House","Cottage"],2:["House","Residence","Home"],3:["Townhouse","Rowhouse"]};
+  const roofFor=s=>({"Modern Tropical":"hip","Mediterranean":"hip","Modern Filipino":"steep","Minimalist":"flat","Contemporary":"shed"}[s]);
+  let n=0; const owned=new Set();
+  PLANS.forEach(p=>{const st=STUDIOS.find(s=>s.styles[0]===p.style&&!owned.has(s.id))||STUDIOS.find(s=>s.styles.includes(p.style)&&!owned.has(s.id));if(st){p.studio=st.id;owned.add(st.id);}});
+  STUDIOS.forEach((st,si)=>{
+    const r=rng(si*977+31);
+    const count=owned.has(st.id)?3:4;
+    for(let k=0;k<count;k++){
+      const style=st.styles[k%st.styles.length];
+      const storeys=style==="Minimalist"&&r()<.5?3:(r()<.35?1:2);
+      const firewall=storeys===3||(r()<.3&&storeys===2);
+      const lotW=storeys===3?6:firewall?7+Math.floor(r()*2):10+Math.floor(r()*6);
+      const lotD=storeys===3?12:12+Math.floor(r()*8);
+      const fa=Math.round((storeys===1?70+r()*80:storeys===2?110+r()*110:130+r()*40)/5)*5;
+      const beds=Math.max(2,Math.min(4,Math.round(fa/50)));
+      const baths=Math.max(1,Math.min(beds,storeys+(r()<.5?0:1)-(storeys===1?0:1)+1));
+      const t1=Math.round((11000+fa*45+r()*2500)/500)*500;
+      const roof=storeys===3?"flat":roofFor(style);
+      const name=`${trees[n%trees.length]} ${sfx[storeys][k%sfx[storeys].length]}`; n++;
+      PLANS.push({interiors:k%3!==2,slug:name.toLowerCase().replace(/[^a-z]+/g,"-")+"-"+st.id,name,style,storeys,fa,lotW,lotD,beds,baths,firewall,t1,t2:t1*3,
+        roof,louvres:style==="Modern Tropical"||style==="Modern Filipino",arches:style==="Mediterranean",garage:!firewall&&lotW>=12,
+        ceiling:storeys===1?"3.2 m":"3.0 m",structure:firewall?"RC frame, CHB infill, firewall at lot line":roof==="steep"?"Raised RC frame on columns":"RC frame, CHB infill",
+        roofing:{hip:"Long-span pre-painted, hip 25° pitch",shed:"Long-span, single slope 10°",steep:"Long-span, steep gable 40° pitch",flat:"RC roof deck with parapet",gable:"Long-span, gable 30° pitch"}[roof],studio:st.id});
+    }
+  });
+})();
+PLANS.forEach((p,i)=>{if(p.interiors===undefined)p.interiors=i%3!==1;});
+const studioOf = p => STUDIOS.find(s=>s.id===p.studio);
+const plansOf = id => PLANS.filter(p=>p.studio===id);
+/* this hour's 10 shops: same for every visitor during the hour, reshuffled on the hour */
+function featuredNow(){
+  const hour=Math.floor(Date.now()/3600000), r=rng(hour*7919+13);
+  const mix=x=>{const a=[...x];for(let i=a.length-1;i>0;i--){const j=Math.floor(r()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
+  const has=STUDIOS.filter(s=>PLANS.some(p=>p.studio===s.id));
+  return {hour,list:[...mix(has.filter(s=>s.real)),...mix(has.filter(s=>!s.real))].slice(0,10)};
+}
+let featSel=0, featHour=null;
+const STYLES = [...new Set(PLANS.map(p=>p.style))];
+const SHEETS = {
+  A:{name:"Architectural",req:true,items:[["A-1","Perspective and site development plan"],["A-2","Floor plans"],["A-3","Elevations"],["A-4","Sections"],["A-5","Door and window schedule, details"]]},
+  S:{name:"Structural",req:true,items:[["S-1","Foundation plan and details"],["S-2","Floor and roof framing plans"],["S-3","Beam, column and slab schedules"],["S-4","Structural computations"]]},
+  E:{name:"Electrical",req:true,items:[["E-1","Lighting layout"],["E-2","Power and outlet layout"],["E-3","Riser diagram and load schedule"]]},
+  P:{name:"Plumbing and sanitary",req:true,items:[["P-1","Water supply layout"],["P-2","Sanitary and drainage layout"],["P-3","Isometric diagrams, septic tank detail"]]},
+  M:{name:"Mechanical",req:false,items:[["M-1","Air-conditioning and ventilation layout"]]}
+};
+const peso = n => "₱" + Math.round(n).toLocaleString("en-PH");
+const esc = s => String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const lotBand = a => a<100?"u100":a<150?"100-150":a<250?"150-250":"250";
+
+/* ---------- drawings ---------- */
+function elevation(p,{w=400,h=250,ground=true,sheet=false}={}){
+  const g=h-34, sh=p.storeys===3?44:p.storeys===2?52:58;
+  const raised=p.roof==="steep"?24:0;
+  let bw=p.storeys===3?150:p.firewall?190:p.storeys===1?240:230;
+  const x0=(w-bw-(p.garage?70:0))/2, top=g-raised-sh*p.storeys;
+  const ink="var(--ink)",fill="var(--surface)",gold="var(--gold)";
+  let s=`<svg viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Front elevation of ${esc(p.name)}" fill="none" stroke="${ink}" stroke-width="1.1" stroke-linejoin="round">`;
+  // trees / context
+  s+=`<g stroke="var(--line-2)"><circle cx="${x0-26}" cy="${g-38}" r="22"/><line x1="${x0-26}" y1="${g-16}" x2="${x0-26}" y2="${g}"/></g>`;
+  // garage wing
+  if(p.garage){const gx=x0+bw, gh=46;
+    s+=`<rect x="${gx}" y="${g-gh}" width="70" height="${gh}" fill="${fill}"/><line x1="${gx-6}" y1="${g-gh}" x2="${gx+78}" y2="${g-gh}" stroke-width="2"/>`;
+    for(let i=1;i<6;i++) s+=`<line x1="${gx+10}" y1="${g-gh+8+i*6}" x2="${gx+60}" y2="${g-gh+8+i*6}" stroke="var(--line-2)"/>`;
+    s+=`<rect x="${gx+10}" y="${g-gh+12}" width="50" height="${gh-12}" />`;}
+  // stilts
+  if(raised){for(let i=0;i<4;i++){const px=x0+10+i*(bw-20)/3;s+=`<line x1="${px}" y1="${g-raised}" x2="${px}" y2="${g}" stroke-width="2"/>`;}
+    s+=`<path d="M${x0+bw-40} ${g} l16 -${raised} h20" />`;}
+  // body
+  s+=`<rect x="${x0}" y="${top}" width="${bw}" height="${sh*p.storeys}" fill="${fill}"/>`;
+  if(p.firewall) {for(let y=top+6;y<g-raised;y+=8) s+=`<line x1="${x0}" y1="${y}" x2="${x0+8}" y2="${y-8}" stroke="var(--line-2)"/>`; s+=`<line x1="${x0+8}" y1="${top}" x2="${x0+8}" y2="${g}" />`;}
+  // floor lines + eaves
+  for(let f=1;f<p.storeys;f++){const y=g-raised-sh*f; s+=`<line x1="${x0-(p.louvres?10:0)}" y1="${y}" x2="${x0+bw+(p.louvres?10:0)}" y2="${y}" stroke-width="${p.louvres?2:1}"/>`;}
+  // openings
+  for(let f=0;f<p.storeys;f++){
+    const fy=g-raised-sh*(f+1); const n=Math.max(2,Math.floor((bw-20)/62)); const span=(bw-(p.firewall?30:20))/n; const ox=x0+(p.firewall?22:10);
+    for(let i=0;i<n;i++){
+      const wx=ox+i*span+span*.15, ww=span*.7;
+      if(f===0&&i===0&&!raised){ // door
+        s+=`<rect x="${wx}" y="${fy+14}" width="${Math.min(ww,30)}" height="${sh-14}" fill="var(--paper)"/><line x1="${wx+Math.min(ww,30)-6}" y1="${fy+sh*.6}" x2="${wx+Math.min(ww,30)-6}" y2="${fy+sh*.66}" stroke="${gold}" stroke-width="2"/>`;
+        continue;}
+      const wy=fy+12, wh=sh-24;
+      if(p.arches){s+=`<path d="M${wx} ${wy+wh} V${wy+ww/2} A${ww/2} ${ww/2} 0 0 1 ${wx+ww} ${wy+ww/2} V${wy+wh} Z" fill="var(--paper)"/>`;}
+      else{s+=`<rect x="${wx}" y="${wy}" width="${ww}" height="${wh}" fill="var(--paper)"/><line x1="${wx+ww/2}" y1="${wy}" x2="${wx+ww/2}" y2="${wy+wh}" stroke="var(--line-2)"/>`;}
+      if(p.louvres){for(let k=0;k<4;k++) s+=`<line x1="${wx+ww+4+k*3}" y1="${wy-2}" x2="${wx+ww+4+k*3}" y2="${wy+wh+2}" stroke="${gold}" stroke-width=".8"/>`;}
+    }
+  }
+  // roof
+  const L=x0-14,R=x0+bw+14;
+  if(p.roof==="hip") s+=`<path d="M${L} ${top} L${x0+34} ${top-28} H${x0+bw-34} L${R} ${top} Z" fill="var(--paper)"/>`;
+  if(p.roof==="gable") s+=`<path d="M${L} ${top} L${x0+bw/2} ${top-46} L${R} ${top} Z" fill="var(--paper)"/>`;
+  if(p.roof==="steep") s+=`<path d="M${L-6} ${top+4} L${x0+bw/2} ${top-62} L${R+6} ${top+4} Z" fill="var(--paper)"/><line x1="${x0+bw/2}" y1="${top-62}" x2="${x0+bw/2}" y2="${top}" stroke="var(--line-2)"/>`;
+  if(p.roof==="shed") s+=`<path d="M${L} ${top-4} L${R} ${top-22} L${R} ${top-14} L${L} ${top+4} Z" fill="var(--paper)"/>`;
+  if(p.roof==="flat") s+=`<rect x="${x0-4}" y="${top-14}" width="${bw+8}" height="14" fill="var(--paper)"/><path d="M${x0+bw-40} ${top-14} v-16 h30 v16" stroke="var(--line-2)"/>`;
+  if(ground) s+=`<line x1="12" y1="${g}" x2="${w-12}" y2="${g}" stroke-width="1.8"/><text x="14" y="${g+16}" fill="var(--ink-2)" stroke="none" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="8.5" letter-spacing="1.4">NGL</text>`;
+  if(sheet) s+=`<text x="${w/2}" y="${h-8}" text-anchor="middle" fill="var(--ink-2)" stroke="none" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="9" letter-spacing="2">FRONT ELEVATION · SCALE N.T.S.</text>`;
+  return s+`</svg>`;
+}
+
+function floorPlan(p){
+  const w=400,h=260,ox=30,oy=24,W=340,H=200;
+  const t="font-family='Plus Jakarta Sans, system-ui, sans-serif' font-size='9' letter-spacing='1.2' fill='var(--ink-2)' stroke='none' text-anchor='middle'";
+  let s=`<svg viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ground floor layout of ${esc(p.name)}, without dimensions" fill="none" stroke="var(--ink)">`;
+  s+=`<rect x="${ox}" y="${oy}" width="${W}" height="${H}" stroke-width="3" fill="var(--paper)"/>`;
+  const lx=ox+W*.55; s+=`<line x1="${lx}" y1="${oy}" x2="${lx}" y2="${oy+H}" stroke-width="1.5"/>`;
+  // left: living/dining + kitchen
+  const ky=oy+H*.62; s+=`<line x1="${ox}" y1="${ky}" x2="${lx}" y2="${ky}" stroke-width="1.5"/>`;
+  s+=`<text x="${(ox+lx)/2}" y="${(oy+ky)/2}" ${t}>LIVING / DINING</text><text x="${(ox+lx)/2}" y="${(ky+oy+H)/2+3}" ${t}>KITCHEN</text>`;
+  // right: rooms
+  const rooms=p.storeys>1?["STAIR","T&amp;B","BEDROOM"]:[...Array(p.beds).fill("BEDROOM"),"T&amp;B"].slice(0,4);
+  const rh=H/rooms.length;
+  rooms.forEach((r,i)=>{const y=oy+i*rh; if(i) s+=`<line x1="${lx}" y1="${y}" x2="${ox+W}" y2="${y}" stroke-width="1.5"/>`;
+    s+=`<text x="${(lx+ox+W)/2}" y="${y+rh/2+3}" ${t}>${r}</text>`;
+    if(r==="STAIR") for(let k=1;k<7;k++) s+=`<line x1="${lx+10+k*12}" y1="${y+8}" x2="${lx+10+k*12}" y2="${y+rh-8}" stroke="var(--line-2)"/>`;});
+  // door swing at entry
+  s+=`<path d="M${ox+40} ${oy+H} v-26 a26 26 0 0 1 26 26" stroke="var(--gold)"/>`;
+  s+=`<text x="${w/2}" y="${h-10}" ${t}>GROUND FLOOR · LAYOUT ONLY, DIMENSIONS IN FULL SET</text>`;
+  return s+`</svg>`;
+}
+
+function interior(p,room){
+  const w=400,h=260,bx0=118,by0=62,bx1=282,by1=168;
+  const ink="var(--ink)",f="var(--surface)",pap="var(--paper)",gold="var(--gold)";
+  const lbl={living:"LIVING AND DINING",kitchen:"KITCHEN",bedroom:"BEDROOM"}[room];
+  let s=`<svg viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${lbl.toLowerCase()} render of ${esc(p.name)}" fill="none" stroke="${ink}" stroke-width="1" stroke-linejoin="round">`;
+  s+=`<rect x="0" y="0" width="${w}" height="${h}" fill="${pap}" stroke="none"/>`;
+  s+=`<path d="M0 0 L${bx0} ${by0} M${w} 0 L${bx1} ${by0} M0 ${h} L${bx0} ${by1} M${w} ${h} L${bx1} ${by1}"/><rect x="${bx0}" y="${by0}" width="${bx1-bx0}" height="${by1-by0}" fill="${f}"/>`;
+  for(let i=1;i<6;i++){const t=i/6;s+=`<line x1="${t*w}" y1="${h}" x2="${bx0+t*(bx1-bx0)}" y2="${by1}" stroke="var(--line-2)"/>`;}
+  s+=`<path d="M22 46 L86 70 L86 150 L22 176 Z" fill="${pap}"/><line x1="54" y1="58" x2="54" y2="163" stroke="var(--line-2)"/>`;
+  if(room==="living"){
+    s+=`<rect x="150" y="76" width="64" height="40" fill="${pap}"/><line x1="182" y1="76" x2="182" y2="116" stroke="var(--line-2)"/>`;
+    s+=`<rect x="140" y="128" width="96" height="16" fill="${pap}"/><rect x="134" y="140" width="108" height="20" fill="${pap}"/><line x1="188" y1="140" x2="188" y2="160"/>`;
+    s+=`<ellipse cx="190" cy="196" rx="70" ry="16" stroke="var(--line-2)"/><rect x="168" y="182" width="44" height="14" fill="${pap}"/>`;
+    s+=`<path d="M300 178 h56 l10 22 h-76 z" fill="${pap}"/><line x1="300" y1="200" x2="300" y2="228"/><line x1="356" y1="200" x2="356" y2="228"/><line x1="328" y1="40" x2="328" y2="150" stroke="${gold}"/><circle cx="328" cy="156" r="8" stroke="${gold}"/>`;
+    s+=`<path d="M250 112 q8 -30 4 -50 M250 112 q-10 -26 -22 -38 M250 112 q14 -20 26 -24" stroke="var(--sage)"/><rect x="242" y="112" width="16" height="22" fill="${pap}"/>`;
+  }
+  if(room==="kitchen"){
+    s+=`<rect x="126" y="72" width="148" height="28" fill="${pap}"/>`;for(let i=1;i<4;i++)s+=`<line x1="${126+i*37}" y1="72" x2="${126+i*37}" y2="100"/>`;
+    s+=`<rect x="122" y="128" width="156" height="40" fill="${pap}"/><line x1="122" y1="136" x2="278" y2="136"/>`;for(let i=1;i<4;i++)s+=`<line x1="${122+i*39}" y1="136" x2="${122+i*39}" y2="168"/>`;
+    s+=`<rect x="190" y="112" width="26" height="16"/><path d="M110 196 L290 196 L314 226 L86 226 Z" fill="${pap}"/><line x1="96" y1="226" x2="96" y2="250"/><line x1="304" y1="226" x2="304" y2="250"/>`;
+    for(const x of [160,200,240]) s+=`<line x1="${x}" y1="0" x2="${x}" y2="150" stroke="${gold}"/><path d="M${x-9} 158 h18 l-4 -8 h-10 z" stroke="${gold}"/>`;
+  }
+  if(room==="bedroom"){
+    s+=`<rect x="160" y="78" width="80" height="34" fill="${pap}"/><line x1="200" y1="78" x2="200" y2="112" stroke="var(--line-2)"/>`;
+    s+=`<rect x="156" y="120" width="88" height="28" fill="${pap}"/><path d="M156 148 L244 148 L292 214 L108 214 Z" fill="${pap}"/><path d="M128 186 L272 186" stroke="var(--line-2)"/>`;
+    s+=`<rect x="166" y="132" width="30" height="12" rx="4"/><rect x="204" y="132" width="30" height="12" rx="4"/>`;
+    s+=`<rect x="126" y="140" width="22" height="20" fill="${pap}"/><rect x="252" y="140" width="22" height="20" fill="${pap}"/><circle cx="137" cy="132" r="6" stroke="${gold}"/><circle cx="263" cy="132" r="6" stroke="${gold}"/>`;
+    s+=`<path d="M318 60 L370 40 L370 200 L318 184 Z" fill="${pap}"/><line x1="344" y1="50" x2="344" y2="192"/>`;
+  }
+  s+=`<g font-family="Plus Jakarta Sans, system-ui, sans-serif" stroke="none"><text x="12" y="${h-10}" font-size="9" letter-spacing="1.6" fill="var(--ink-2)">${lbl} · SAMPLE RENDER</text><text x="${w-12}" y="${h-10}" text-anchor="end" font-size="9" letter-spacing="2" font-weight="600" fill="var(--gold)" opacity=".8">HOUSEDESIGN.PH</text></g>`;
+  return s+`</svg>`;
+}
+function planViews(p){
+  if(p.real){const L=[["R1","Exterior perspective"],["R2","Living and dining"],["R3","Kitchen"],["R4","Bedroom"],["R5","More renders"],["FP","Floor plan, no dimensions"]];
+    const v=L.filter(([k])=>p.images[k]).map(([k,l])=>[l,`<img class="render" src="${esc(p.images[k])}" alt="${l}, ${esc(p.name)}">${wm()}`]);
+    return v.length?v:[["Exterior perspective",elevation(p,{w:400,h:260,sheet:true})]];}
+  const v=[["Exterior perspective",elevation(p,{w:400,h:260,sheet:true})]];
+  if(p.interiors) v.push(["Living and dining",interior(p,"living")],["Kitchen",interior(p,"kitchen")],["Bedroom",interior(p,"bedroom")]);
+  v.push(["Floor plan, no dimensions",floorPlan(p)],["Sheet preview",previewSheet(p,"A-3","Elevations")]);
+  return v;
+}
+function previewSheet(p,code,title){
+  const w=400,h=260;
+  const t="font-family='Plus Jakarta Sans, system-ui, sans-serif' stroke='none'";
+  let s=`<svg viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Watermarked preview of sheet ${code}">`;
+  s+=`<rect x="8" y="8" width="${w-16}" height="${h-16}" fill="var(--paper)" stroke="var(--line-2)"/><rect x="16" y="16" width="${w-32}" height="${h-52}" fill="none" stroke="var(--line-2)"/>`;
+  s+=`<g opacity=".55" transform="translate(40 26) scale(.8)">${elevation(p,{ground:true}).replace(/^<svg[^>]*>|<\/svg>$/g,"")}</g>`;
+  s+=`<rect x="16" y="${h-36}" width="${w-32}" height="20" fill="var(--surface)" stroke="var(--line-2)"/>`;
+  s+=`<text x="24" y="${h-22}" ${t} font-size="8" letter-spacing="1.2" fill="var(--ink-2)">${esc(p.name.toUpperCase())} · ${esc(title.toUpperCase())}</text><text x="${w-24}" y="${h-22}" text-anchor="end" ${t} font-size="9" font-weight="600" fill="var(--ink)">${code}</text>`;
+  s+=`<g transform="rotate(-24 ${w/2} ${h/2})" ${t} font-size="17" font-weight="600" letter-spacing="4" fill="var(--gold)" opacity=".45" text-anchor="middle">`;
+  for(let i=-2;i<=2;i++) s+=`<text x="${w/2}" y="${h/2+i*46}">PREVIEW · HOUSEDESIGN.PH</text>`;
+  return s+`</g></svg>`;
+}
+
+/* ---------- state + routing ---------- */
+const state={style:"",lot:"",storeys:"",beds:"",lotW:"",lotD:"",firewall:false,sort:"price",studio:""};
+const app=document.getElementById("app");
+const ico={
+  check:`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12.5l5 5L20 6"/></svg>`,
+  badge:`<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M12 2l2.4 2 3.1-.2.8 3 2.6 1.7-1 3 1 3-2.6 1.7-.8 3-3.1-.2L12 22l-2.4-2-3.1.2-.8-3-2.6-1.7 1-3-1-3 2.6-1.7.8-3 3.1.2z"/><path d="M8.5 12l2.3 2.3L15.5 9.5"/></svg>`,
+  lock:`<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="4" y="10" width="16" height="11" rx="1"/><path d="M8 10V7a4 4 0 018 0v3"/><path d="M12 14v3"/></svg>`,
+  down:`<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M12 3v12M7 10l5 5 5-5"/><path d="M4 17v3h16v-3"/></svg>`
+};
+
+function card(p){
+  return `<a class="card" href="#plan-${p.slug}">
+    <div class="art">${art(p,{w:400,h:250})}<div class="chips">${p.real?'<span class="chip">PRC-Verified</span>':'<span class="chip sample">Sample</span>'}${p.interiors?'<span class="chip int">Interiors</span>':""}${p.firewall?'<span class="chip fw">Firewall ready</span>':""}</div></div>
+    <div class="body">
+      <span class="style">${esc(p.style)} · ${p.storeys}-storey</span>
+      <h3>${esc(p.name)}</h3>
+      <div class="specs"><span>${p.fa} sqm floor</span><span>Min. lot ${p.lotW} × ${p.lotD} m</span><span>${p.beds} bed · ${p.baths} bath</span></div>
+      <div class="price"><span>Complete plans from</span><b>${peso(p.t1)}</b></div>
+    </div></a>`;
+}
+
+function viewHome(){
+  const hero=PLANS[0];
+  return `<section class="hero"><div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">The online marketplace for Filipino house plans</span>
+      <h1 style="margin-top:14px">Complete house plans, <em>ready the day you buy.</em></h1>
+      <p class="lede">Buy architectural, structural, electrical and plumbing plans from PRC-licensed Filipino architects. Download the full set the moment payment succeeds, or order a signed and sealed copy delivered by LBC.</p>
+      <form class="search" id="homeSearch">
+        <label><span>Style</span><select id="hs-style"><option value="">Any style</option>${STYLES.map(s=>`<option>${esc(s)}</option>`).join("")}</select></label>
+        <label><span>Lot size</span><select id="hs-lot"><option value="">Any lot</option><option value="u100">Under 100 sqm</option><option value="100-150">100–150 sqm</option><option value="150-250">150–250 sqm</option><option value="250">250 sqm and up</option></select></label>
+        <label><span>Storeys</span><select id="hs-storeys"><option value="">Any</option><option value="1">1 storey</option><option value="2">2 storeys</option><option value="3">3 storeys with roof deck</option></select></label>
+        <button class="btn" type="submit">Explore plans</button>
+      </form>
+    </div>
+    <div class="sheet hero-sheet"><div class="frame">${elevation(hero,{w:520,h:330,sheet:true})}
+      <div class="tblock"><div><span>Project</span><b>${esc(hero.name)}</b></div><div><span>Sheet</span><b>A-3</b></div><div><span>Lot</span><b class="num">${hero.lotW} × ${hero.lotD} m</b></div><div><span>Status</span><b>Sample</b></div></div>
+    </div></div>
+  </div></section>
+
+  <div class="trust"><div class="wrap">
+    <div class="item">${ico.badge}<div><b>PRC-licensed architects only</b><p>Every shop is checked against the seller's PRC license before it opens.</p></div></div>
+    <div class="item">${ico.lock}<div><b>Safe payment through PayMongo</b><p>Pay with GCash, Maya or your bank. Money never goes to a personal account.</p></div></div>
+    <div class="item">${ico.down}<div><b>Instant download</b><p>Complete plan sets unlock the moment your payment succeeds.</p></div></div>
+  </div></div>
+
+  <section class="featured" id="featured" aria-labelledby="featTitle">${featuredHTML()}</section>
+
+  <section><div class="wrap">
+    <div class="section-head"><div><span class="eyebrow">How buying works</span><h2 style="margin-top:8px">Check it, pay for it, download it.</h2></div></div>
+    <div class="steps">
+      <div class="step"><div class="n">1</div><b>Check the preview</b><p>See every sheet of the set, watermarked, before you pay. Ask the architect questions in chat.</p></div>
+      <div class="step"><div class="n">2</div><b>Pay through PayMongo</b><p>GCash, Maya, cards or bank transfer. A failed payment unlocks nothing.</p></div>
+      <div class="step"><div class="n">3</div><b>Download right away</b><p>Each discipline comes as its own PDF, stamped with your name and order number.</p></div>
+      <div class="step"><div class="n">4</div><b>Sealed copy by LBC</b><p>For Signed &amp; Sealed orders, fill in your lot details and the architect ships the sealed set.</p></div>
+    </div>
+  </div></section>
+
+  <section class="band"><div class="wrap band-grid">
+    <div><span class="eyebrow">For PRC-licensed architects</span>
+      <h2 style="margin-top:10px">Earn from the plans you've already drawn.</h2>
+      <p class="muted" style="margin-top:16px;max-width:52ch">Open your own shop, set your own prices, and keep 80% of every sale after the payment fee. Payouts go straight to your bank every Monday.</p>
+      <div style="margin-top:26px;display:flex;gap:12px;flex-wrap:wrap"><a class="btn gold" href="#sell">Apply as a pioneer seller</a></div></div>
+    <div class="split" aria-label="Example split on a ₱100,000 sale">
+      <div class="row"><span>Buyer pays</span><span>₱100,000</span></div>
+      <div class="row"><span>Payment fee (example, 3%)</span><span>− ₱3,000</span></div>
+      <div class="row hl"><span>You receive, 80%</span><span>₱77,600</span></div>
+      <div class="row"><span>Platform, 20%</span><span>₱19,400</span></div>
+    </div>
+  </div></section>`;
+}
+
+function featuredHTML(){
+  const {hour,list}=featuredNow();
+  if(featHour!==hour){featHour=hour;featSel=0;}
+  const st=list[featSel], plans=plansOf(st.id).sort((a,b)=>b.interiors-a.interiors);
+  const mins=60-new Date().getMinutes();
+  return `<div class="wrap feat-head">
+      <span class="eyebrow">Featured architects</span>
+      <h2 id="featTitle">Ten shops, picked fresh every hour</h2>
+      <p>Swipe through each shop's house plans. At launch, this list will show the top 10 by buyer rating and plans sold.</p>
+      <span class="rot" id="rotNote">These sample shops change in ${mins} min</span>
+    </div>
+    <div class="picker" role="group" aria-label="Featured shops">${list.map((s,i)=>`<button type="button" data-feat="${i}" aria-pressed="${i===featSel}">${esc(s.name)}</button>`).join("")}</div>
+    <div class="studio" id="studioBlock">
+      <span class="who">${esc(st.prof)}${st.prof==="Civil engineer"?" + partner architect":""} · ${esc(st.place)} · ${st.real?"PRC-Verified":"Sample shop"}</span>
+      <h3>${esc(st.name)}</h3>
+      <p class="blurb">${esc(st.blurb)}</p>
+      <a class="btn dark" href="#browse" data-studio="${st.id}">View shop</a>
+    </div>
+    <div class="car" id="car" tabindex="0" aria-roledescription="carousel" aria-label="${esc(st.name)} plans">
+      ${plans.map((p,i)=>`<a class="slide${i===0?" on":""}" href="#plan-${p.slug}" aria-label="${esc(p.name)}, ${i+1} of ${plans.length}">
+        <div class="pic">${art(p,{w:400,h:300})}${p.real?"":'<span class="chip sample">Sample</span>'}</div>
+        <b>${esc(p.name)}</b>
+        <span class="meta">${esc(p.style)} · ${p.storeys}-storey · ${p.fa} sqm · lot ${p.lotW} × ${p.lotD} m</span>
+        <span class="pr">From ${peso(p.t1)}</span></a>`).join("")}
+    </div>
+    <div class="car-nav">
+      <button class="arrow" type="button" id="carPrev" aria-label="Previous plan"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <div class="dots" id="dots">${plans.map((_,i)=>`<button type="button" data-dot="${i}" aria-label="Show plan ${i+1}" aria-current="${i===0}"></button>`).join("")}</div>
+      <button class="arrow" type="button" id="carNext" aria-label="Next plan"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 5l7 7-7 7"/></svg></button>
+    </div>`;
+}
+function bindFeatured(){
+  const sec=document.getElementById("featured"); if(!sec) return;
+  sec.querySelectorAll("[data-feat]").forEach(b=>b.addEventListener("click",()=>{
+    featSel=+b.dataset.feat; const x=sec.querySelector(".picker").scrollLeft;
+    sec.innerHTML=featuredHTML(); sec.querySelector(".picker").scrollLeft=x; bindFeatured();
+    sec.querySelector(`[data-feat="${featSel}"]`).focus({preventScroll:true});}));
+  const car=document.getElementById("car"), slides=[...car.querySelectorAll(".slide")], dots=[...sec.querySelectorAll("[data-dot]")];
+  const prev=document.getElementById("carPrev"), next=document.getElementById("carNext");
+  let cur=0;
+  const go=i=>{i=Math.max(0,Math.min(slides.length-1,i));const s=slides[i];car.scrollTo({left:s.offsetLeft-(car.clientWidth-s.offsetWidth)/2});};
+  const mark=()=>{const mid=car.scrollLeft+car.clientWidth/2;let best=0,bd=1e9;
+    slides.forEach((s,i)=>{const d=Math.abs(s.offsetLeft+s.offsetWidth/2-mid);if(d<bd){bd=d;best=i;}});
+    cur=best;slides.forEach((s,i)=>s.classList.toggle("on",i===cur));dots.forEach((d,i)=>d.setAttribute("aria-current",i===cur));
+    prev.disabled=cur===0;next.disabled=cur===slides.length-1;};
+  let raf=0;car.addEventListener("scroll",()=>{cancelAnimationFrame(raf);raf=requestAnimationFrame(mark);},{passive:true});
+  dots.forEach(d=>d.addEventListener("click",()=>go(+d.dataset.dot)));
+  prev.addEventListener("click",()=>go(cur-1));next.addEventListener("click",()=>go(cur+1));
+  car.addEventListener("keydown",e=>{if(e.key==="ArrowRight"){e.preventDefault();go(cur+1);}if(e.key==="ArrowLeft"){e.preventDefault();go(cur-1);}});
+  /* drag to scroll with a mouse */
+  let down=null;car.addEventListener("pointerdown",e=>{if(e.pointerType!=="mouse")return;down={x:e.clientX,l:car.scrollLeft,moved:false};car.style.scrollSnapType="none";car.style.scrollBehavior="auto";});
+  window.addEventListener("pointermove",e=>{if(!down)return;const dx=e.clientX-down.x;if(Math.abs(dx)>4)down.moved=true;car.scrollLeft=down.l-dx;});
+  window.addEventListener("pointerup",()=>{if(!down)return;const moved=down.moved;down=null;car.style.scrollSnapType="";car.style.scrollBehavior="";mark();go(cur);
+    if(moved){const stop=e=>{e.preventDefault();e.stopPropagation();};car.addEventListener("click",stop,{capture:true,once:true});setTimeout(()=>car.removeEventListener("click",stop,{capture:true}),50);}});
+  requestAnimationFrame(()=>{car.style.scrollBehavior="auto";go(0);car.style.scrollBehavior="";mark();});
+}
+setInterval(()=>{const sec=document.getElementById("featured");if(!sec)return;
+  const {hour}=featuredNow();
+  if(hour!==featHour){sec.innerHTML=featuredHTML();bindFeatured();}
+  else{const n=document.getElementById("rotNote");if(n)n.textContent=`These sample shops change in ${60-new Date().getMinutes()} min`;}},30000);
+
+function filtered(){
+  let r=PLANS.filter(p=>{
+    const a=p.lotW*p.lotD;
+    if(state.studio&&p.studio!==state.studio) return false;
+    if(state.style&&p.style!==state.style) return false;
+    if(state.lot&&lotBand(a)!==state.lot) return false;
+    if(state.storeys&&String(p.storeys)!==state.storeys) return false;
+    if(state.beds&&p.beds<+state.beds) return false;
+    if(state.firewall&&!p.firewall) return false;
+    const W=parseFloat(state.lotW),D=parseFloat(state.lotD);
+    if(W>0&&p.lotW>W) return false;
+    if(D>0&&p.lotD>D) return false;
+    return true;});
+  const k={price:(a,b)=>a.t1-b.t1,"price-desc":(a,b)=>b.t1-a.t1,area:(a,b)=>a.fa-b.fa,lot:(a,b)=>a.lotW*a.lotD-b.lotW*b.lotD}[state.sort];
+  return r.sort(k);
+}
+function viewBrowse(){
+  return `<div class="page-head"><div class="wrap"><span class="eyebrow">Browse plans</span><h1 style="margin-top:10px;font-size:clamp(2.2rem,4.5vw,3.4rem)">Find a plan that fits your lot</h1>
+    <p>Enter your lot's width and depth in meters. Only plans that fit inside it will show.</p></div></div>
+  <section style="padding-top:32px"><div class="wrap browse">
+    <form class="filters" id="filters" onsubmit="return false">
+      <div class="field"><span>Your lot (meters)</span><div class="lotdims"><input type="number" id="f-lotW" min="0" step="0.5" inputmode="decimal" placeholder="Width" aria-label="Lot width in meters" value="${esc(state.lotW)}"><i>×</i><input type="number" id="f-lotD" min="0" step="0.5" inputmode="decimal" placeholder="Depth" aria-label="Lot depth in meters" value="${esc(state.lotD)}"></div><span class="hint">Frontage first, then depth.</span></div>
+      <label class="field"><span>Lot area</span><select id="f-lot"><option value="">Any</option><option value="u100">Under 100 sqm</option><option value="100-150">100–150 sqm</option><option value="150-250">150–250 sqm</option><option value="250">250 sqm and up</option></select></label>
+      <label class="field"><span>Style</span><select id="f-style"><option value="">Any</option>${STYLES.map(s=>`<option>${esc(s)}</option>`).join("")}</select></label>
+      <label class="field"><span>Storeys</span><select id="f-storeys"><option value="">Any</option><option value="1">1</option><option value="2">2</option><option value="3">3 with roof deck</option></select></label>
+      <label class="field"><span>Bedrooms</span><select id="f-beds"><option value="">Any</option><option value="2">2 or more</option><option value="3">3 or more</option><option value="4">4 or more</option></select></label>
+      <label class="check"><input type="checkbox" id="f-firewall" ${state.firewall?"checked":""}> Firewall ready only</label>
+      <button class="btn ghost" type="button" id="f-reset">Clear filters</button>
+    </form>
+    <div><div class="results-bar"><span style="display:flex;gap:12px;align-items:center;flex-wrap:wrap"><span id="count" class="num"></span>${state.studio?`<span class="shopchip">Shop: ${esc(STUDIOS.find(s=>s.id===state.studio)?.name||"")}<button type="button" id="clearShop" aria-label="Show all shops">×</button></span>`:""}</span>
+      <label>Sort <select id="f-sort"><option value="price">Price, low to high</option><option value="price-desc">Price, high to low</option><option value="area">Floor area</option><option value="lot">Lot size needed</option></select></label></div>
+      <div class="grid" id="results"></div></div>
+  </div></section>`;
+}
+function renderResults(){
+  const r=filtered(); const el=document.getElementById("results"); if(!el) return;
+  document.getElementById("count").textContent=`${r.length} of ${PLANS.length} sample plans`;
+  el.innerHTML=r.length?r.map(card).join(""):`<div class="empty" style="grid-column:1/-1">No plan fits those filters yet. Try a larger lot or clear a filter.</div>`;
+}
+function bindBrowse(){
+  const ids=["style","lot","storeys","beds","sort"];
+  ids.forEach(k=>{const s=document.getElementById("f-"+k); s.value=state[k]; s.addEventListener("change",()=>{state[k]=s.value;renderResults();});});
+  ["lotW","lotD"].forEach(k=>document.getElementById("f-"+k).addEventListener("input",e=>{state[k]=e.target.value;renderResults();}));
+  document.getElementById("f-firewall").addEventListener("change",e=>{state.firewall=e.target.checked;renderResults();});
+  document.getElementById("f-reset").addEventListener("click",()=>{Object.assign(state,{style:"",lot:"",storeys:"",beds:"",lotW:"",lotD:"",firewall:false,studio:""});render();});
+  document.getElementById("clearShop")?.addEventListener("click",()=>{state.studio="";render();});
+  renderResults();
+}
+
+function viewPlan(p){
+  const views=planViews(p);
+  const sheetList=Object.entries(SHEETS).map(([k,d])=>`<div><h4>${d.name} <small>${d.req?"· required":"· optional"}</small></h4><ul>${d.items.map(([c,t])=>`<li><code>${c}</code><span>${t}</span></li>`).join("")}</ul></div>`).join("");
+  return `<div class="wrap crumbs"><a href="#browse">Browse plans</a> / ${esc(p.style)} / ${esc(p.name)}</div>
+  <div class="wrap plan">
+    <div class="gallery">
+      <div class="sheet main" id="mainView">${views[0][1]}</div>
+      <div class="thumbs" role="group" aria-label="Pictures">${views.map((v,i)=>`<button type="button" data-v="${i}" aria-pressed="${i===0}">${v[1]}${v[0]}</button>`).join("")}</div>
+      <p class="pic-note">${p.interiors?"":"The architect hasn't added interior renders for this plan. "}Pictures are watermarked. Full-resolution renders come with your download.</p>
+      <div class="tabs">
+        <div class="tablist" role="tablist">
+          <button role="tab" aria-selected="true" data-tab="specs" id="tab-specs">Specifications</button>
+          <button role="tab" aria-selected="false" data-tab="sheets" id="tab-sheets">Sheet checklist</button>
+          <button role="tab" aria-selected="false" data-tab="notice" id="tab-notice">Notice</button>
+        </div>
+        <div class="tabpanel" data-panel="specs"><dl class="spec">
+          <dt>Minimum lot</dt><dd>${p.lotW} m frontage × ${p.lotD} m depth (${p.lotW*p.lotD} sqm)</dd>
+          <dt>Floor area</dt><dd>${p.fa} sqm</dd>
+          <dt>Storeys</dt><dd>${p.storeys}${p.storeys===3?", with roof deck":""}</dd>
+          <dt>Bedrooms / toilets</dt><dd>${p.beds} / ${p.baths}</dd>
+          ${p.ceiling?`<dt>Ceiling height</dt><dd>${p.ceiling}</dd>`:""}
+          ${p.structure?`<dt>Structure</dt><dd>${esc(p.structure)}</dd>`:""}
+          ${p.roofing?`<dt>Roofing</dt><dd>${esc(p.roofing)}</dd>`:""}
+          ${p.real&&p.signers.length?`<dt>Signed by</dt><dd>${p.signers.map(s=>`${esc({A:"Architectural",S:"Structural",E:"Electrical",P:"Plumbing",M:"Mechanical"}[s.discipline])}: ${esc(s.name)}, PRC ${esc(s.prc_no)}`).join("<br>")}</dd>`:""}
+          <dt>Firewall</dt><dd>${p.firewall?"Yes, built to the lot line":"No"}</dd>
+          <dt>Design code</dt><dd>NSCP 2015, PD 1096</dd>
+        </dl></div>
+        <div class="tabpanel" data-panel="sheets" hidden><p class="note" style="margin-bottom:14px">Each discipline is delivered as its own PDF. Sheet numbers follow the architect's set.</p><div class="disc">${sheetList}</div></div>
+        <div class="tabpanel" data-panel="notice" hidden><p class="note" style="font-size:.88rem;max-width:68ch">House Design Hub Philippines is an online marketplace and does not itself provide architectural or engineering services. This plan is the work and responsibility of the licensed seller who lists it. Soil, wind and seismic conditions vary by site, so have the plans reviewed for your lot and local rules under the National Building Code (PD 1096) before construction. Signed &amp; Sealed sets are sealed by the selling architect and the engineers named on the listing, using the lot details you give. Your purchase allows one house to be built from these plans.</p></div>
+      </div>
+    </div>
+    <div class="buy">
+      <div><span class="eyebrow">${esc(p.style)} · ${p.storeys}-storey${p.firewall?" · Firewall ready":""}</span><h1 style="margin-top:8px">${esc(p.name)}</h1></div>
+      <div class="seller">${p.real?`Sold by <a href="#browse" data-studio="${p.studio}"><b>${esc(studioOf(p).name)}</b></a> · PRC-Verified ${esc(studioOf(p).prof.toLowerCase())} · PRC ${esc(studioOf(p).prc)} · ${esc(studioOf(p).place)}`:`${studioOf(p)?`Sold by <a href="#browse" data-studio="${p.studio}"><b>${esc(studioOf(p).name)}</b></a> · ${esc(studioOf(p).prof)} · ${esc(studioOf(p).place)}<br>`:""}<b>Sample listing.</b> Real listings show the seller's PRC number here.`}</div>
+      ${p.real&&p.desc?`<p style="white-space:pre-line">${esc(p.desc)}</p>`:""}
+      <fieldset class="tiers"><legend class="eyebrow" style="margin-bottom:8px">Choose a package</legend>
+        <label class="tier"><input type="radio" name="tier" value="1" checked><b>Complete Plans</b><span class="p">${peso(p.t1)}</span>
+          <p>Architectural, structural (with computations), electrical, and plumbing and sanitary plans as separate PDFs, plus full-resolution renders. Instant download after payment.</p></label>
+        <label class="tier"><input type="radio" name="tier" value="2"><b>Signed &amp; Sealed<span class="tag">LBC included</span></b><span class="p">${peso(p.t2)}</span>
+          <p>Everything in Complete Plans, plus a signed and sealed hard copy for your lot. You give your name, lot address and lot size after checkout.</p></label>
+      </fieldset>
+      <div class="actions">
+        <a class="btn" href="#waitlist" id="buyBtn">Join the waitlist to buy</a>
+        <a class="btn ghost" href="#waitlist">Ask the architect (opens at launch)</a>
+      </div>
+      <p class="note" id="tierNote">Checkout opens at launch. Pay with GCash, Maya, cards or bank transfer through PayMongo.</p>
+    </div>
+  </div>`;
+}
+function bindPlan(p){
+  const views=planViews(p).map(v=>v[1]);
+  document.querySelectorAll(".thumbs button").forEach(b=>b.addEventListener("click",()=>{
+    document.getElementById("mainView").innerHTML=views[+b.dataset.v];
+    document.querySelectorAll(".thumbs button").forEach(x=>x.setAttribute("aria-pressed",x===b));}));
+  document.querySelectorAll("[role=tab]").forEach(t=>t.addEventListener("click",()=>{
+    document.querySelectorAll("[role=tab]").forEach(x=>x.setAttribute("aria-selected",x===t));
+    document.querySelectorAll("[data-panel]").forEach(pn=>pn.hidden=pn.dataset.panel!==t.dataset.tab);}));
+  document.querySelectorAll("input[name=tier]").forEach(r=>r.addEventListener("change",()=>{
+    document.getElementById("tierNote").textContent=r.value==="2"
+      ?"Signed & Sealed: your digital files unlock right away; the sealed copy ships by LBC once the architect seals it. Checkout opens at launch."
+      :"Checkout opens at launch. Pay with GCash, Maya, cards or bank transfer through PayMongo.";}));
+}
+
+function viewHow(){
+  return `<div class="page-head"><div class="wrap"><span class="eyebrow">How it works</span><h1 style="margin-top:10px;font-size:clamp(2.2rem,4.5vw,3.4rem)">What happens when you buy a plan</h1>
+    <p>You see the full set before paying, and you get it the moment payment succeeds. Your money goes through PayMongo, never to a personal account.</p></div></div>
+  <section><div class="wrap">
+    <div class="steps">
+      <div class="step"><div class="n">1</div><b>Browse and preview</b><p>Filter by lot size, then check the watermarked preview of every sheet.</p></div>
+      <div class="step"><div class="n">2</div><b>Pay</b><p>Pay through PayMongo with GCash, Maya, cards or bank transfer.</p></div>
+      <div class="step"><div class="n">3</div><b>Download</b><p>Every discipline unlocks as its own PDF in your dashboard. Links can be re-issued anytime.</p></div>
+      <div class="step"><div class="n">4</div><b>Sealed copy</b><p>Signed &amp; Sealed orders: fill in the sealing form, and the architect ships by LBC.</p></div>
+    </div>
+  </div></section>
+  <section style="padding-top:0"><div class="wrap two">
+    <div><h2 style="font-size:2rem">The two packages</h2>
+      <div class="scroll-x" style="margin-top:18px"><table class="t"><thead><tr><th></th><th>Complete Plans</th><th>Signed &amp; Sealed</th></tr></thead><tbody>
+        <tr><td class="muted">Plan set</td><td>Arch, Struct, Elec, Plumbing PDFs</td><td>Same, plus sealed hard copy</td></tr>
+        <tr><td class="muted">Delivery</td><td>Instant download</td><td>Instant download, sealed copy by LBC</td></tr>
+        <tr><td class="muted">You provide</td><td>Nothing</td><td>Owner name, lot address, lot size</td></tr>
+        <tr><td class="muted">Shipping</td><td>None</td><td>Included in the price</td></tr>
+      </tbody></table></div>
+      <h2 style="font-size:2rem;margin-top:40px">Changes to a plan</h2>
+      <p class="muted" style="margin-top:10px">Need a flipped layout or another bedroom? Ask the architect in chat after buying. They send a fee request on the platform, you pay it there, and the money is held until the revised files are uploaded.</p>
+    </div>
+    <div><h2 style="font-size:2rem">Refunds and protection</h2>
+      <ul class="list" style="margin-top:14px">
+        <li>${ico.check}<span>A failed or pending payment unlocks nothing, not even the preview files.</span></li>
+        <li>${ico.check}<span>Downloaded plans can't be refunded, except for broken or missing files, which the architect must re-upload.</span></li>
+        <li>${ico.check}<span>For Signed &amp; Sealed orders and custom work, your payment is held until the architect delivers. If they don't deliver on time, you're refunded, minus the payment fee.</span></li>
+        <li>${ico.check}<span>Keep chats and payments on HouseDesign.ph. Deals made outside the platform have no protection.</span></li>
+      </ul></div>
+  </div></section>`;
+}
+
+function viewSell(){
+  return `<div class="page-head"><div class="wrap"><span class="eyebrow">Sell your plans</span><h1 style="margin-top:10px;font-size:clamp(2.2rem,4.5vw,3.4rem)">Open a shop for your finished plans</h1>
+    <p>For PRC-licensed architects. List complete plan sets, set your price, and get paid every Monday.</p></div></div>
+  <section><div class="wrap two">
+    <div>
+      <h2 style="font-size:2rem">What you need to list a plan</h2>
+      <ul class="list" style="margin-top:14px">
+        <li>${ico.check}<span>A valid PRC license. We check it before your shop opens and add the PRC-Verified badge.</span></li>
+        <li>${ico.check}<span>A complete set, one PDF per discipline: architectural, structural with computations, electrical, and plumbing and sanitary. Mechanical is optional.</span></li>
+        <li>${ico.check}<span>An exterior perspective, and ideally interior renders of the living and dining area, kitchen and a bedroom. Listings with at least 2 interior renders get an Interiors badge and show first.</span></li>
+        <li>${ico.check}<span>For Signed &amp; Sealed, the engineers who seal the structural, electrical and plumbing sheets, with their PRC numbers.</span></li>
+        <li>${ico.check}<span>A declaration on every upload: your original design, or a client-owned design with the client's permission.</span></li>
+        <li>${ico.check}<span>Your bank details for payouts, verified by PayMongo.</span></li>
+      </ul>
+      <p style="margin-top:18px"><a class="btn ghost" href="#seller-center">Open the Seller Center</a></p>
+      <h2 style="font-size:2rem;margin-top:40px">When you get paid</h2>
+      <div class="scroll-x" style="margin-top:14px"><table class="t"><tbody>
+        <tr><td class="muted">Complete Plans</td><td>Next Monday after the sale</td></tr>
+        <tr><td class="muted">Signed &amp; Sealed</td><td>Next Monday after you post the LBC tracking number</td></tr>
+        <tr><td class="muted">Custom work</td><td>Next Monday after you upload the revised files</td></tr>
+      </tbody></table></div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:28px">
+      <div class="calc" aria-labelledby="calcTitle">
+        <h3 id="calcTitle">What you keep from a sale</h3>
+        <div class="inputs">
+          <label class="field"><span>Sale price (₱)</span><input type="number" id="c-price" min="0" step="500" value="18000" inputmode="numeric"></label>
+          <label class="field"><span>Payment fee (%)</span><input type="number" id="c-fee" min="0" max="10" step="0.1" value="3" inputmode="decimal"></label>
+        </div>
+        <div class="out" id="c-out"></div>
+        <p class="hint">The fee shown is an example. PayMongo's real rate depends on how the buyer pays. You keep 80% of what remains after the fee.</p>
+      </div>
+      ${joinForm("architect")}
+    </div>
+  </div></section>`;
+}
+function bindCalc(){
+  const pr=document.getElementById("c-price"),fe=document.getElementById("c-fee"),out=document.getElementById("c-out");
+  const run=()=>{const P=Math.max(0,+pr.value||0),F=Math.min(10,Math.max(0,+fe.value||0));const fee=P*F/100,rem=P-fee;
+    out.innerHTML=`<div><span>Buyer pays</span><span>${peso(P)}</span></div><div><span>Payment fee</span><span>− ${peso(fee)}</span></div><div><span>Remaining</span><span>${peso(rem)}</span></div><div class="you"><span>You receive, 80%</span><span>${peso(rem*.8)}</span></div><div><span>Platform, 20%</span><span>${peso(rem*.2)}</span></div>`;};
+  pr.addEventListener("input",run);fe.addEventListener("input",run);run();
+}
+
+function viewWaitlist(){
+  return `<div class="page-head"><div class="wrap"><span class="eyebrow">Join the waitlist</span><h1 style="margin-top:10px;font-size:clamp(2.2rem,4.5vw,3.4rem)">Be first when the shops open</h1>
+    <p>Lot owners on the waitlist get a launch discount code. Licensed architects can apply for one of the first 50 Pioneer Seller spots.</p></div></div>
+  <section><div class="wrap two">${joinForm("buyer")}${joinForm("architect")}</div></section>`;
+}
+
+function joinForm(kind){
+  const b=kind==="buyer";
+  return `<form class="join" data-kind="${kind}" novalidate>
+    <span class="eyebrow">${b?"For lot owners":"For PRC-licensed architects"}</span>
+    <h3>${b?"Get a launch discount":"Apply as a Pioneer Seller"}</h3>
+    <p class="muted" style="font-size:.88rem">${b?"We'll email your discount code when checkout opens.":`First 50 verified architects get a Pioneer badge and front-page placement at launch. Ready now? <a href="#seller-center">Create an account and apply</a>.`}</p>
+    <div class="row2">
+      <label class="field"><span>Full name</span><input type="text" id="${kind}-name" name="name" autocomplete="name" required></label>
+      <label class="field"><span>Email</span><input type="email" id="${kind}-email" name="email" autocomplete="email" required></label>
+    </div>
+    ${b?`<label class="field"><span>Where you plan to build</span><input type="text" id="buyer-place" name="place" placeholder="City or province, e.g. Dasmariñas, Cavite" required></label>
+      <div class="field"><span>Lot size, if known (meters)</span><div class="lotdims"><input type="number" id="buyer-w" name="lotW" min="0" step="0.5" placeholder="Width" aria-label="Lot width in meters"><i>×</i><input type="number" id="buyer-d" name="lotD" min="0" step="0.5" placeholder="Depth" aria-label="Lot depth in meters"></div></div>`
+     :`<div class="row2"><label class="field"><span>PRC license number</span><input type="text" id="architect-prc" name="prc" inputmode="numeric" required></label>
+      <label class="field"><span>Ready plans you could list</span><input type="number" id="architect-plans" name="plans" min="0" step="1" placeholder="e.g. 5"></label></div>
+      <label class="field"><span>Portfolio link</span><input type="url" id="architect-portfolio" name="portfolio" placeholder="Facebook, Behance or Drive link"></label>`}
+    <button class="btn ${b?"":"gold"}" type="submit">${b?"Join the waitlist":"Send application"}</button>
+    <p class="form-msg" role="status" aria-live="polite"></p>
+  </form>`;
+}
+
+function doneBox(kind,name){
+  return `<div class="done"><b>${kind==="buyer"?"You're on the waitlist":"Application received"}.</b><p style="margin-top:6px">${esc(name||"Thanks")}, ${kind==="buyer"?"we'll email your launch discount when checkout opens.":"we'll check your PRC license and contact you before launch."}</p></div>`;
+}
+
+/* ================= LIVE DATA: Supabase ================= */
+const SB_URL="https://zlvekoinutpgzgfiantf.supabase.co";
+const SB_KEY="sb_publishable_NKPdvJ8Ay8FFTTVJ51tyDg_7H9HHDEq";
+const sb=window.supabase?window.supabase.createClient(SB_URL,SB_KEY):null;
+const ME={user:null,profile:null,seller:null,ready:false};
+let returnTo="", AUTH_MODE="in", REAL_LOADED=false;
+const imgURL=path=>sb.storage.from("listing-images").getPublicUrl(path).data.publicUrl;
+const wm=()=>`<span class="wm" aria-hidden="true">HOUSEDESIGN.PH</span>`;
+const DAY=864e5;
+const fmtD=t=>new Date(t).toLocaleDateString("en-PH",{month:"short",day:"numeric",year:"numeric",timeZone:"Asia/Manila"});
+const keep=price=>price*0.97*0.8;
+const slugify=s=>s.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,50)||"plan";
+function toast(msg){let t=document.getElementById("toast");if(!t){t=document.createElement("div");t.id="toast";t.className="toast";t.setAttribute("role","status");document.body.appendChild(t);}
+  t.textContent=msg;t.hidden=false;clearTimeout(t._h);t._h=setTimeout(()=>t.hidden=true,4200);}
+const msgPage=(title,body)=>`<section><div class="wrap" style="max-width:620px"><h1 style="font-size:clamp(2rem,4vw,2.8rem)">${title}</h1><p class="muted" style="margin-top:12px">${body}</p></div></section>`;
+const loadingPage=()=>`<section><div class="wrap"><p class="note">Loading…</p></div></section>`;
+
+async function loadMe(){
+  if(!sb){ME.ready=true;renderAcct();return;}
+  const {data:{session}}=await sb.auth.getSession();
+  ME.user=session?.user||null;ME.profile=null;ME.seller=null;
+  if(ME.user){
+    const [p,s]=await Promise.all([sb.from("profiles").select("*").eq("id",ME.user.id).maybeSingle(),sb.from("sellers").select("*").eq("user_id",ME.user.id).maybeSingle()]);
+    ME.profile=p.data||null;ME.seller=s.data||null;
+  }
+  ME.ready=true;renderAcct();
+}
+function renderAcct(){
+  const si=document.getElementById("navSignIn"),so=document.getElementById("navSignOut"),ad=document.getElementById("navAdmin");
+  if(si) si.hidden=!!ME.user; if(so) so.hidden=!ME.user; if(ad) ad.hidden=ME.profile?.role!=="admin";
+}
+async function signOut(){await sb?.auth.signOut();RS.listings=null;RS.draft=null;RA.sellers=null;await loadMe();location.hash="home";}
+
+/* live listings from approved shops */
+async function loadLive(){
+  if(!sb) return;
+  const {data,error}=await sb.from("listings")
+    .select("id,slug,name,style,storeys,floor_area,lot_w,lot_d,beds,baths,firewall,description,price_complete,offers_sealed,price_sealed,updated_at,sellers(id,shop_name,profession,prc_no,place,blurb,status),listing_files(slot,kind,path),listing_signers(discipline,name,prc_no)")
+    .eq("status","live").order("updated_at",{ascending:false});
+  if(error||!data) return;
+  const shops=new Map();
+  const plans=data.filter(l=>l.sellers&&l.sellers.status==="approved").map(l=>{
+    const s=l.sellers, sid="s-"+s.id;
+    if(!shops.has(sid)) shops.set(sid,{id:sid,name:s.shop_name,prof:s.profession,place:s.place,blurb:s.blurb||"",prc:s.prc_no,styles:[],real:true});
+    shops.get(sid).styles.push(l.style);
+    const images={};(l.listing_files||[]).filter(f=>f.kind==="image").forEach(f=>images[f.slot]=imgURL(f.path));
+    return {real:true,id:l.id,slug:l.slug,name:l.name,style:l.style,storeys:l.storeys,fa:+l.floor_area,lotW:+l.lot_w,lotD:+l.lot_d,beds:l.beds,baths:l.baths,
+      firewall:l.firewall,desc:l.description||"",t1:l.price_complete,t2:l.offers_sealed?l.price_sealed:0,studio:sid,images,signers:l.listing_signers||[],
+      interiors:["R2","R3","R4"].filter(k=>images[k]).length>=2,roof:"hip",louvres:false,garage:false};
+  });
+  for(let i=PLANS.length-1;i>=0;i--) if(PLANS[i].real) PLANS.splice(i,1);
+  for(let i=STUDIOS.length-1;i>=0;i--) if(STUDIOS[i].real) STUDIOS.splice(i,1);
+  PLANS.unshift(...plans); STUDIOS.unshift(...shops.values());
+  plans.forEach(p=>{if(!STYLES.includes(p.style)) STYLES.push(p.style);});
+  REAL_LOADED=true;
+}
+function art(p,o){
+  if(p.real&&p.images&&p.images.R1) return `<img class="render" src="${esc(p.images.R1)}" alt="Exterior of ${esc(p.name)}" loading="lazy">${wm()}`;
+  return elevation(p,o);
+}
+
+/* ---------- sign in, sign up, reset ---------- */
+function authErr(e){const m=(e.message||"").toLowerCase();
+  if(m.includes("invalid login")) return "That email and password don't match. Check them, or reset your password.";
+  if(m.includes("not confirmed")) return "Confirm your email first. Look for the message we sent when you signed up.";
+  if(m.includes("already registered")||m.includes("already been registered")) return "An account with this email already exists. Sign in instead.";
+  if(m.includes("rate limit")||e.status===429) return "Too many tries. Wait a few minutes and try again.";
+  if(m.includes("password")) return e.message;
+  return "That didn't work: "+e.message;}
+function viewSignIn(){
+  if(ME.user) return `<section><div class="wrap" style="max-width:560px"><div class="panel"><h2>You're signed in</h2><p class="note" style="margin-top:6px">Signed in as ${esc(ME.user.email)}.</p>
+    <div style="display:flex;gap:10px;margin-top:16px;flex-wrap:wrap"><a class="btn" href="#seller-center">Go to Seller Center</a><button class="btn ghost" type="button" data-signout>Sign out</button></div></div></div></section>`;
+  const m=AUTH_MODE;
+  return `<section><div class="wrap" style="max-width:560px">
+    <span class="eyebrow">${m==="up"?"Create an account":m==="forgot"?"Reset your password":"Sign in"}</span>
+    <h1 style="margin-top:10px;font-size:clamp(2rem,4vw,2.8rem)">${m==="up"?"Join HouseDesign.ph":m==="forgot"?"Forgot your password?":"Welcome back"}</h1>
+    ${m==="up"?`<p class="muted" style="margin-top:10px">Architects and civil engineers: create your account first, then apply for a shop with your PRC license.</p>`:""}
+    <form class="join" id="authForm" novalidate style="margin-top:20px">
+      ${m==="up"?`<label class="field"><span>Full name</span><input type="text" id="au-name" autocomplete="name" required></label>`:""}
+      <label class="field"><span>Email</span><input type="email" id="au-email" autocomplete="email" required></label>
+      ${m!=="forgot"?`<label class="field"><span>Password</span><input type="password" id="au-pass" autocomplete="${m==="up"?"new-password":"current-password"}" minlength="8" required></label>${m==="up"?`<span class="hint">At least 8 characters.</span>`:""}`:""}
+      <button class="btn" type="submit">${m==="up"?"Create account":m==="forgot"?"Send reset link":"Sign in"}</button>
+      <p class="form-msg" role="status" aria-live="polite"></p>
+    </form>
+    <p class="note" style="margin-top:16px;display:flex;gap:18px;flex-wrap:wrap">
+      ${m!=="in"?`<button type="button" class="lnk" data-am="in">Sign in instead</button>`:""}
+      ${m!=="up"?`<button type="button" class="lnk" data-am="up">Create an account</button>`:""}
+      ${m!=="forgot"?`<button type="button" class="lnk" data-am="forgot">Forgot password?</button>`:""}</p>
+  </div></section>`;
+}
+function bindSignIn(){
+  document.querySelectorAll("[data-am]").forEach(b=>b.addEventListener("click",()=>{AUTH_MODE=b.dataset.am;route();}));
+  document.querySelectorAll("[data-signout]").forEach(b=>b.addEventListener("click",signOut));
+  const f=document.getElementById("authForm"); if(!f) return;
+  f.addEventListener("submit",async e=>{e.preventDefault();
+    const msg=f.querySelector(".form-msg"),btn=f.querySelector("button[type=submit]");
+    const say=(t,ok)=>{msg.className="form-msg "+(ok?"ok":"err");msg.textContent=t;};
+    const email=f.querySelector("#au-email").value.trim(),pass=f.querySelector("#au-pass")?.value||"",name=f.querySelector("#au-name")?.value.trim()||"";
+    if(AUTH_MODE==="up"&&name.length<2) return say("Enter your full name.");
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return say("Enter a valid email address.");
+    if(AUTH_MODE!=="forgot"&&pass.length<8) return say("Use a password of at least 8 characters.");
+    if(!sb) return say("Sign-in isn't available right now. Try again later.");
+    btn.disabled=true;say("Please wait…",true);
+    const back=location.origin+location.pathname;
+    let res;
+    try{
+      if(AUTH_MODE==="in") res=await sb.auth.signInWithPassword({email,password:pass});
+      else if(AUTH_MODE==="up") res=await sb.auth.signUp({email,password:pass,options:{data:{full_name:name},emailRedirectTo:back}});
+      else res=await sb.auth.resetPasswordForEmail(email,{redirectTo:back});
+    }catch(e){btn.disabled=false;return say("We couldn't reach the server. Check your connection and try again.");}
+    btn.disabled=false;
+    if(res.error) return say(authErr(res.error));
+    if(AUTH_MODE==="forgot") return say("Check your email for a link to set a new password.",true);
+    if(AUTH_MODE==="up"&&!res.data.session) return say("Almost done. Check your email and tap the confirmation link to activate your account.",true);
+    await loadMe();const to=returnTo||"seller-center";returnTo="";location.hash=to;
+  });
+}
+function viewReset(){
+  if(!ME.user) return msgPage("Reset link expired","Open the reset link from your email again, or <a href=\"#sign-in\" data-am-forgot>request a new one</a>.");
+  return `<section><div class="wrap" style="max-width:560px"><span class="eyebrow">Reset your password</span><h1 style="margin-top:10px;font-size:clamp(2rem,4vw,2.8rem)">Choose a new password</h1>
+    <form class="join" id="resetForm" novalidate style="margin-top:20px"><label class="field"><span>New password</span><input type="password" id="rp-pass" autocomplete="new-password" minlength="8" required></label>
+    <button class="btn" type="submit">Save password</button><p class="form-msg" role="status" aria-live="polite"></p></form></div></section>`;
+}
+function bindReset(){
+  document.querySelector("[data-am-forgot]")?.addEventListener("click",()=>{AUTH_MODE="forgot";});
+  const f=document.getElementById("resetForm"); if(!f) return;
+  f.addEventListener("submit",async e=>{e.preventDefault();const p=f.querySelector("#rp-pass").value,msg=f.querySelector(".form-msg");
+    if(p.length<8){msg.className="form-msg err";msg.textContent="Use at least 8 characters.";return;}
+    const {error}=await sb.auth.updateUser({password:p});
+    if(error){msg.className="form-msg err";msg.textContent=authErr(error);return;}
+    toast("Password saved. You're signed in.");location.hash="seller-center";});
+}
+
+/* ---------- waitlist ---------- */
+function bindForms(){
+  document.querySelectorAll("form.join[data-kind]").forEach(f=>f.addEventListener("submit",async e=>{
+    e.preventDefault();const msg=f.querySelector(".form-msg");msg.className="form-msg";
+    const bad=[...f.querySelectorAll("[required]")].find(i=>!i.value.trim());
+    if(bad){msg.classList.add("err");msg.textContent=`Please fill in ${bad.closest("label").querySelector("span").textContent.toLowerCase()}.`;bad.focus();return;}
+    const em=f.querySelector("input[type=email]");if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em.value.trim())){msg.classList.add("err");msg.textContent="Please enter a valid email address.";em.focus();return;}
+    const d=Object.fromEntries([...new FormData(f)].map(([k,v])=>[k,String(v).trim()]));
+    const kind=f.dataset.kind,btn=f.querySelector("button");
+    if(!sb){msg.classList.add("err");msg.textContent="We can't reach the server right now. Please try again later.";return;}
+    btn.disabled=true;msg.textContent="Saving…";
+    const {error}=await sb.from("waitlist").insert({kind,name:d.name,email:d.email.toLowerCase(),place:d.place||null,lot_w:+d.lotW||null,lot_d:+d.lotD||null,prc_no:d.prc||null,plans:d.plans?+d.plans:null,portfolio:d.portfolio||null});
+    if(error&&error.code!=="23505"){btn.disabled=false;msg.classList.add("err");msg.textContent="That didn't save. Check your details and try again.";return;}
+    f.outerHTML=doneBox(kind,d.name);
+  }));
+}
+
+/* ================= SELLER CENTER (live) ================= */
+const DISC=[
+  {k:"A",name:"Architectural",signer:"Licensed architect",law:"RA 9266",req:"always",files:"A-1 to A-5"},
+  {k:"S",name:"Structural, with computations",signer:"Civil or structural engineer",law:"RA 544",req:"sealed",files:"S-1 to S-4"},
+  {k:"E",name:"Electrical",signer:"Professional electrical engineer",law:"RA 7920",req:"sealed",files:"E-1 to E-3"},
+  {k:"P",name:"Plumbing and sanitary",signer:"Master plumber or sanitary engineer",law:"RA 1378",req:"sealed",files:"P-1 to P-3"},
+  {k:"M",name:"Mechanical",signer:"Professional mechanical engineer",law:"RA 8495",req:"optional",files:"M-1"}
+];
+const PLAN_SLOTS=["A","S","E","P","M","O"], IMG_SLOTS=["R1","R2","R3","R4","R5","FP"];
+const WIZ=["Plan details","Packages","Plan files","Signatories","Declaration"];
+const LSTAT={draft:["Draft",""],review:["In review","wait"],live:["Live","ok"],changes:["Needs changes","bad"],rejected:["Not approved","bad"]};
+const RS={tab:"overview",step:0,draft:null,err:"",listings:null,busy:"",del:null};
+const sellerPill=()=>({approved:["PRC-Verified","ok"],pending:["Being checked","wait"],info:["More info needed","bad"],rejected:["Not approved","bad"]})[ME.seller.status];
+async function loadMyListings(){
+  const {data,error}=await sb.from("listings").select("*,listing_files(slot,kind,path,file_name,size_bytes),listing_signers(*)").eq("seller_id",ME.seller.id).order("updated_at",{ascending:false});
+  RS.listings=error?[]:data;
+}
+function signInPrompt(title,body,to){
+  return `<section><div class="wrap" style="max-width:640px"><span class="eyebrow">${title}</span><h1 style="margin-top:10px;font-size:clamp(2rem,4vw,2.8rem)">${body}</h1>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:22px"><button class="btn" type="button" data-auth="up" data-to="${to}">Create an account</button><button class="btn ghost" type="button" data-auth="in" data-to="${to}">Sign in</button></div></div></section>`;
+}
+function bindAuthButtons(){document.querySelectorAll("[data-auth]").forEach(b=>b.addEventListener("click",()=>{AUTH_MODE=b.dataset.auth;returnTo=b.dataset.to||"";location.hash="sign-in";}));}
+
+function viewSeller(){
+  if(!sb) return msgPage("Seller Center is unavailable","We can't reach the server right now. Try again in a few minutes.");
+  if(!ME.ready) return loadingPage();
+  if(!ME.user) return signInPrompt("Seller Center","Open your shop on HouseDesign.ph","seller-center")+`<div class="wrap"><p class="muted" style="max-width:60ch;margin-top:-40px;padding-bottom:64px">For PRC-licensed architects and civil engineers. Create an account, then apply with your PRC license number. We check every license before a shop opens.</p></div>`;
+  if(!ME.seller) return viewApply();
+  const [lab,cls]=sellerPill();
+  return `<div class="wrap sc-top"><div><span class="eyebrow">Seller Center</span><h1 style="margin-top:6px">${esc(ME.seller.shop_name)}</h1></div><span class="pill ${cls}">${lab}</span></div>
+  <div class="wrap sc"><nav class="sc-nav" aria-label="Seller Center">
+    ${[["overview","Overview"],["listings","Listings"],["orders","Orders"],["payouts","Payouts"],["profile","Shop profile"]].map(([k,l])=>`<button type="button" data-sc="${k}" ${RS.tab===k||(RS.tab==="new"&&k==="listings")?'aria-current="page"':""}>${l}</button>`).join("")}
+  </nav><div class="sc-main" id="scMain">${RS.listings?scBody():`<p class="note">Loading your shop…</p>`}</div></div>`;
+}
+function scBody(){return ({overview:scOverview,listings:scListings,new:scNew,orders:scOrders,payouts:scPayouts,profile:scProfile})[RS.tab]();}
+function scRender(){const m=document.getElementById("scMain");if(!m)return;
+  document.querySelectorAll("[data-sc]").forEach(b=>{const on=RS.tab===b.dataset.sc||(RS.tab==="new"&&b.dataset.sc==="listings");on?b.setAttribute("aria-current","page"):b.removeAttribute("aria-current");});
+  m.innerHTML=scBody();bindScBody();}
+
+function applyFields(s){s=s||{};return `<div class="fgrid">
+  <label class="field"><span>Shop name</span><input type="text" id="ap-name" maxlength="80" value="${esc(s.shop_name||"")}" placeholder="e.g. your studio's name" required></label>
+  <label class="field"><span>Profession</span><select id="ap-prof">${["Architect","Civil engineer"].map(x=>`<option ${s.profession===x?"selected":""}>${x}</option>`).join("")}</select></label>
+  <label class="field"><span>PRC license number</span><input type="text" id="ap-prc" inputmode="numeric" maxlength="8" value="${esc(s.prc_no||"")}" placeholder="Digits as shown on your PRC ID" required></label>
+  <label class="field"><span>Town or city</span><input type="text" id="ap-place" maxlength="80" value="${esc(s.place||"")}" placeholder="e.g. Dasmariñas, Cavite" required></label>
+  <label class="field full"><span>One line about your shop</span><input type="text" id="ap-blurb" maxlength="140" value="${esc(s.blurb||"")}"></label>
+  <label class="field full"><span>Portfolio link</span><input type="url" id="ap-port" maxlength="300" value="${esc(s.portfolio||"")}" placeholder="Facebook page, Behance or Google Drive"></label></div>
+  <p class="note" id="ap-ce" style="margin-top:12px" ${s.profession==="Civil engineer"?"":"hidden"}>Civil engineers can sell on HouseDesign.ph. Each listing must name the licensed architect who signs the architectural sheets.</p>`;}
+function readApply(){const v=id=>document.getElementById(id).value.trim();
+  return {shop_name:v("ap-name"),profession:document.getElementById("ap-prof").value,prc_no:v("ap-prc"),place:v("ap-place"),blurb:v("ap-blurb")||null,portfolio:v("ap-port")||null};}
+function checkApply(d){
+  if(d.shop_name.length<2) return "Enter your shop name.";
+  if(!/^\d{5,8}$/.test(d.prc_no)) return "Enter your PRC license number as digits only, as shown on your PRC ID.";
+  if(d.place.length<2) return "Enter your town or city.";
+  return "";}
+function viewApply(){
+  return `<div class="page-head"><div class="wrap"><span class="eyebrow">Apply for a shop</span><h1 style="margin-top:10px;font-size:clamp(2.2rem,4.5vw,3.4rem)">Tell us about your practice</h1>
+    <p>We check your PRC license before your shop opens, usually within 2 working days. You can prepare listings while you wait.</p></div></div>
+  <section style="padding-top:32px"><div class="wrap" style="max-width:820px"><form class="panel" id="applyForm" novalidate>${applyFields({profession:"Architect"})}
+    <label class="check" style="margin-top:16px;align-items:flex-start"><input type="checkbox" id="ap-ok" style="margin-top:5px"> <span>I hold a valid PRC license, and these details are true. I agree that HouseDesign.ph may check my license with the PRC.</span></label>
+    <p class="err-msg" role="alert" id="apErr"></p><button class="btn" type="submit">Send application</button></form></div></section>`;
+}
+function bindApplyCE(){const p=document.getElementById("ap-prof");if(p)p.addEventListener("change",()=>{document.getElementById("ap-ce").hidden=p.value!=="Civil engineer";});}
+function bindApply(){
+  bindApplyCE();
+  const f=document.getElementById("applyForm");
+  f.addEventListener("submit",async e=>{e.preventDefault();const err=document.getElementById("apErr");const d=readApply();
+    const m=checkApply(d)||(!document.getElementById("ap-ok").checked?"Tick the box to confirm your license details.":"");
+    if(m){err.textContent=m;return;}
+    const btn=f.querySelector("button[type=submit]");btn.disabled=true;err.textContent="";
+    const {error}=await sb.from("sellers").insert({...d,user_id:ME.user.id});
+    btn.disabled=false;
+    if(error){err.textContent="That didn't save: "+error.message;return;}
+    await loadMe();RS.listings=null;RS.tab="overview";route();window.scrollTo(0,0);toast("Application sent. We'll check your PRC license.");});
+}
+
+function scOverview(){
+  const s=ME.seller,L=RS.listings,c=st=>L.filter(l=>l.status===st).length;
+  const steps=[["v-done","Application sent",fmtD(s.created_at)],
+    s.status==="approved"?["v-done","PRC license checked","PRC-Verified badge added"]:s.status==="pending"?["v-now","PRC license check","Usually within 2 working days"]:["v-now",s.status==="info"?"More info needed":"Not approved","See the note below"],
+    ["","Payout account","Set up with PayMongo when checkout opens"],
+    s.status==="approved"?["v-done","Shop is open","Approved listings go live"]:["","Shop opens","After your license is checked"]];
+  const fix=L.filter(l=>l.status==="changes"||l.status==="rejected"), drafts=L.filter(l=>l.status==="draft");
+  return `<h2>Overview</h2>
+    <div class="panel"><h3>${s.status==="approved"?"Your shop is verified":s.status==="pending"?"Your application is being checked":"Your application needs attention"}</h3>
+      <ol class="verify">${steps.map(([c,b,t])=>`<li class="${c}"><b>${b}</b><small>${t}</small></li>`).join("")}</ol>
+      ${s.admin_note&&s.status!=="approved"?`<div class="formcard"><b>Note from HouseDesign.ph</b><br>${esc(s.admin_note)}</div>${s.status==="info"?`<p class="note" style="margin-top:8px">Update your details in Shop profile. Saving sends your application back for checking.</p>`:""}`:""}</div>
+    <div class="stats">
+      <div class="stat"><span>Live</span><b>${c("live")}</b><small>Visible to buyers</small></div>
+      <div class="stat"><span>In review</span><b>${c("review")}</b><small>Checked within 2 working days</small></div>
+      <div class="stat"><span>Needs changes</span><b>${fix.length}</b><small>See the reviewer's note</small></div>
+      <div class="stat"><span>Drafts</span><b>${drafts.length}</b><small>Not yet submitted</small></div></div>
+    <div class="panel"><h3>Next steps</h3><ul class="todo">
+      ${fix.map(l=>`<li><span><b>${esc(l.name)}</b> · ${LSTAT[l.status][0]}<span class="sub muted" style="display:block;font-size:.84rem">${esc(l.admin_note||"")}</span></span><button type="button" class="btn sm" data-edit="${l.id}">Edit listing</button></li>`).join("")}
+      ${drafts.map(l=>`<li><span><b>${esc(l.name)}</b> is still a draft.</span><button type="button" class="btn sm ghost" data-edit="${l.id}">Finish</button></li>`).join("")}
+      ${!L.length?`<li><span>Add your first plan. You'll need one PDF per discipline and an exterior perspective.</span><button type="button" class="btn sm" data-new>New listing</button></li>`:""}
+      ${L.length&&!fix.length&&!drafts.length?`<li class="muted">Nothing to do right now.</li>`:""}
+    </ul></div>`;
+}
+function scListings(){
+  const L=RS.listings;
+  return `<div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap"><h2>Listings</h2><button type="button" class="btn" data-new>New listing</button></div>
+    ${L.length?`<div class="panel scroll-x" style="padding:6px 22px"><table class="t"><thead><tr><th>Plan</th><th>Status</th><th>Complete Plans</th><th>Signed &amp; Sealed</th><th>Updated</th><th></th></tr></thead><tbody>
+    ${L.map(l=>`<tr><td><b>${esc(l.name)}</b><span class="sub">${esc(l.style)} · ${l.storeys}-storey · ${(l.listing_files||[]).length} files</span></td>
+      <td><span class="pill ${LSTAT[l.status][1]}">${LSTAT[l.status][0]}</span>${l.admin_note&&(l.status==="changes"||l.status==="rejected")?`<span class="sub" style="margin-top:4px;max-width:28ch">${esc(l.admin_note)}</span>`:""}</td>
+      <td class="num">${peso(l.price_complete)}</td><td class="num">${l.offers_sealed?peso(l.price_sealed):"—"}</td><td class="num">${fmtD(l.updated_at)}</td>
+      <td><div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center">
+        ${l.status==="live"?`<a class="lnk" href="#plan-${esc(l.slug)}">View</a>`:""}
+        <button type="button" class="lnk" data-edit="${l.id}">Edit</button>
+        ${l.status!=="live"?(RS.del===l.id?`<span class="note">Delete for good?</span><button type="button" class="lnk" style="color:var(--err)" data-delyes="${l.id}">Delete</button><button type="button" class="lnk" data-delno>Keep</button>`:`<button type="button" class="lnk" data-del="${l.id}">Delete</button>`):""}
+      </div></td></tr>`).join("")}
+    </tbody></table></div>`:`<div class="empty">No listings yet. Use New listing to add your first plan.</div>`}
+    <p class="note">New and edited listings are checked by HouseDesign.ph before they go live, usually within 2 working days. Editing a live listing takes it offline until the changes are approved.</p>`;
+}
+function newDraft(){return {id:null,status:"draft",name:"",style:"",storeys:"2",fa:"",lotW:"",lotD:"",beds:"",baths:"",firewall:false,desc:"",t1:"",offerT2:true,t2:"",files:{},signers:{},own:"",perm:false,resp:false};}
+function draftFrom(l){const d=newDraft();
+  Object.assign(d,{id:l.id,status:l.status,name:l.name,style:l.style,storeys:String(l.storeys),fa:String(l.floor_area),lotW:String(l.lot_w),lotD:String(l.lot_d),beds:String(l.beds),baths:String(l.baths),
+    firewall:l.firewall,desc:l.description||"",t1:String(l.price_complete),offerT2:l.offers_sealed,t2:l.price_sealed?String(l.price_sealed):"",own:l.ownership||"",perm:l.client_permission,resp:false});
+  (l.listing_files||[]).forEach(f=>d.files[f.slot]={name:f.file_name,size:f.size_bytes,path:f.path,existing:true});
+  (l.listing_signers||[]).forEach(s=>d.signers[s.discipline]={name:s.name,prc:s.prc_no,self:s.is_self});
+  return d;}
+const selfName=()=>ME.profile?.full_name||ME.seller.shop_name;
+function scNew(){
+  const d=RS.draft,s=RS.step,isCE=ME.seller.profession==="Civil engineer";
+  const head=`<div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap"><h2>${d.id?"Edit listing":"New listing"}</h2><button type="button" class="lnk" data-goto="listings" ${RS.busy?"disabled":""}>Cancel</button></div>
+    ${d.status==="live"?`<p class="formcard">This listing is live. Saving changes takes it offline until HouseDesign.ph approves them.</p>`:""}
+    <ol class="wiz">${WIZ.map((w,i)=>`<li class="${i<s?"done":i===s?"now":""}"><i>${i<s?"✓":i+1}</i>${w}</li>`).join("")}</ol>`;
+  let body="";
+  if(s===0) body=`<div class="panel"><div class="fgrid">
+    <label class="field full"><span>Plan name</span><input type="text" id="w-name" maxlength="80" value="${esc(d.name)}" placeholder="e.g. Acacia House"></label>
+    <label class="field"><span>Style</span><select id="w-style"><option value="">Choose a style</option>${STYLE_CHOICES.map(x=>`<option ${d.style===x?"selected":""}>${esc(x)}</option>`).join("")}</select></label>
+    <label class="field"><span>Storeys</span><select id="w-storeys">${["1","2","3"].map(x=>`<option value="${x}" ${d.storeys===x?"selected":""}>${x}${x==="3"?" with roof deck":""}</option>`).join("")}</select></label>
+    <label class="field"><span>Floor area (sqm)</span><input type="number" id="w-fa" min="20" value="${esc(d.fa)}" inputmode="decimal"></label>
+    <div class="field"><span>Minimum lot (meters)</span><div class="lotdims"><input type="number" id="w-lotW" min="3" step="0.5" value="${esc(d.lotW)}" placeholder="Frontage" aria-label="Lot frontage in meters"><i>×</i><input type="number" id="w-lotD" min="3" step="0.5" value="${esc(d.lotD)}" placeholder="Depth" aria-label="Lot depth in meters"></div></div>
+    <label class="field"><span>Bedrooms</span><input type="number" id="w-beds" min="1" value="${esc(d.beds)}" inputmode="numeric"></label>
+    <label class="field"><span>Toilets and baths</span><input type="number" id="w-baths" min="1" value="${esc(d.baths)}" inputmode="numeric"></label>
+    <label class="check full"><input type="checkbox" id="w-fw" ${d.firewall?"checked":""}> Built to the lot line (firewall on one or both sides)</label>
+    <label class="field full"><span>Description for buyers</span><textarea id="w-desc" maxlength="3000" placeholder="What makes this plan work: layout, ventilation, how it suits the lot.">${esc(d.desc)}</textarea></label></div></div>`;
+  if(s===1){const t1=+d.t1||0,t2=+d.t2||0;
+    body=`<div class="panel"><div class="fgrid">
+    <label class="field"><span>Complete Plans price (₱)</span><input type="number" id="w-t1" min="1000" step="500" value="${esc(d.t1)}" inputmode="numeric"></label><div></div>
+    <label class="toggle full"><input type="checkbox" id="w-offer" ${d.offerT2?"checked":""}><span><b>Also offer Signed &amp; Sealed</b><small>You and your named engineers seal a hard copy for the buyer's lot and ship it by LBC within 14 days. Shipping is included in your price.</small></span></label>
+    ${d.offerT2?`<label class="field"><span>Signed &amp; Sealed price (₱)</span><input type="number" id="w-t2" min="1000" step="500" value="${esc(d.t2)}" inputmode="numeric"></label><div></div>`:""}</div>
+    <div style="margin-top:16px"><div class="keep"><span>You receive per Complete Plans sale</span><span id="k-t1">${t1?peso(keep(t1)):"—"}</span></div>
+    ${d.offerT2?`<div class="keep"><span>You receive per Signed &amp; Sealed sale</span><span id="k-t2">${t2?peso(keep(t2)):"—"}</span></div>`:""}
+    <p class="hint" style="margin-top:8px">80% of the price after the payment fee. A 3% fee is used here as an example; the real rate depends on how the buyer pays.</p></div></div>`;}
+  if(s===2){const n=["R2","R3","R4"].filter(k=>d.files[k]&&!d.files[k].err).length;
+    body=`<div class="panel"><h3>Plan files</h3><p class="note" style="margin-bottom:14px">One PDF per discipline, up to 200 MB each. Buyers get these after paying. They are never shown publicly.</p>
+    <div class="slots">${DISC.map(x=>slotHTML(x.k,x.name,x.req==="optional"?"Optional":"Required",x.files,"application/pdf")).join("")}
+    ${slotHTML("O","Other documents","Optional","Bill of materials, specifications","application/pdf")}</div></div>
+    <div class="panel"><h3>Pictures buyers see before paying</h3><p class="note" style="margin-bottom:14px">Shown on your listing for everyone, with a HouseDesign.ph watermark. JPG or PNG, up to 20 MB. Add at least 2 interior renders to earn the Interiors badge.</p>
+    <div class="slots">${slotHTML("R1","Exterior perspective","Required","Main picture for cards and the homepage","image/jpeg,image/png")}${slotHTML("R2","Living and dining area","Recommended","Interior render","image/jpeg,image/png")}${slotHTML("R3","Kitchen","Recommended","Interior render","image/jpeg,image/png")}${slotHTML("R4","Bedroom","Recommended","Master bedroom or any bedroom","image/jpeg,image/png")}${slotHTML("R5","More renders","Optional","Other rooms or angles","image/jpeg,image/png")}${slotHTML("FP","Floor plan image, no dimensions","Required","Room names only, no measurements","image/jpeg,image/png")}</div>
+    <p class="hint" style="margin-top:10px">${n>=2?`Interiors badge: yes, ${n} interior renders added.`:`Interiors badge: add ${2-n} more interior render${2-n===1?"":"s"} to earn it.`}</p></div>`;}
+  if(s===3){
+    body=`<div class="panel"><h3>Who signs each set of sheets</h3>
+    <p class="note" style="margin-bottom:6px">${isCE?"As a civil engineer, you must name the licensed architect who signs the architectural sheets. Only a licensed architect may sign them.":"Only a licensed architect may sign the architectural sheets."} ${d.offerT2?"Because you offer Signed &amp; Sealed, name the professional for each discipline.":"Name the architect now; the others are needed only if you offer Signed &amp; Sealed."}</p>
+    ${DISC.filter(x=>x.req==="always"||(d.offerT2&&x.req==="sealed")||(d.offerT2&&x.k==="M"&&d.files.M)).map(x=>{const sg=d.signers[x.k]||{};const selfOk=(x.k==="A"&&!isCE)||(x.k==="S"&&isCE);
+      return `<div class="signer"><div class="who"><b>${x.name}</b><small>${x.signer} · ${x.law}</small>${selfOk?`<label class="check" style="margin-top:6px;font-size:.84rem"><input type="checkbox" data-self="${x.k}" ${sg.self?"checked":""}> I sign these sheets</label>`:""}</div>
+        <label class="field"><span>Full name</span><input type="text" data-sn="${x.k}" maxlength="120" value="${esc(sg.self?selfName():sg.name||"")}" ${sg.self?"disabled":""}></label>
+        <label class="field"><span>PRC no.</span><input type="text" data-sp="${x.k}" inputmode="numeric" maxlength="8" value="${esc(sg.self?ME.seller.prc_no:sg.prc||"")}" ${sg.self?"disabled":""}></label></div>`;}).join("")}</div>`;}
+  if(s===4) body=`<div class="panel"><h3>Ownership</h3>
+    <label class="toggle" style="margin-bottom:10px"><input type="radio" name="own" value="original" ${d.own==="original"?"checked":""}><span><b>This is my original design</b><small>No client paid for exclusive rights to it.</small></span></label>
+    <label class="toggle"><input type="radio" name="own" value="client" ${d.own==="client"?"checked":""}><span><b>This was designed for a client</b><small>I have the client's written permission to sell it.</small></span></label>
+    ${d.own==="client"?`<label class="check" style="margin-top:12px"><input type="checkbox" id="w-perm" ${d.perm?"checked":""}> I have the client's written permission and can show it if asked.</label>`:""}</div>
+    <div class="panel"><h3>Responsibility</h3><label class="check" style="align-items:flex-start"><input type="checkbox" id="w-resp" ${d.resp?"checked":""} style="margin-top:5px"> <span>These plans follow NSCP 2015 and the National Building Code (PD 1096). I and the professionals named on this listing are responsible for the sheets we sign. Each sale allows the buyer to build one house.</span></label></div>
+    <div class="panel"><h3>Summary</h3><dl class="spec">
+      <dt>Plan</dt><dd>${esc(d.name)} · ${esc(d.style)} · ${esc(d.storeys)}-storey · ${esc(d.fa)} sqm</dd>
+      <dt>Minimum lot</dt><dd>${esc(d.lotW)} × ${esc(d.lotD)} m</dd>
+      <dt>Complete Plans</dt><dd>${peso(+d.t1)} · you receive ${peso(keep(+d.t1))}</dd>
+      ${d.offerT2?`<dt>Signed &amp; Sealed</dt><dd>${peso(+d.t2)} · you receive ${peso(keep(+d.t2))}</dd>`:""}
+      <dt>Files</dt><dd>${Object.values(d.files).filter(f=>!f.err).length} added</dd></dl></div>`;
+  const busy=RS.busy?"disabled":"";
+  return head+body+`<p class="err-msg" role="alert">${esc(RS.err)}</p>${RS.busy?`<p class="formcard" id="busyMsg" role="status">${esc(RS.busy)}</p>`:""}
+    <div class="wiz-actions">${s?`<button type="button" class="btn ghost" data-wiz="-1" ${busy}>Back</button>`:"<span></span>"}
+    <div style="display:flex;gap:8px;flex-wrap:wrap">${s>=1?`<button type="button" class="btn ghost" data-save ${busy}>Save as draft</button>`:""}
+    <button type="button" class="btn" data-wiz="1" ${busy}>${s===WIZ.length-1?"Submit for review":"Next"}</button></div></div>`;
+}
+function slotHTML(k,name,req,hint,accept){
+  const f=RS.draft.files[k];
+  const info=f?.err?`<small class="errf">${esc(f.err)}</small>`:f?`<small class="okf">${f.existing?"Uploaded: ":""}${esc(f.name)} · ${(f.size/1048576).toFixed(1)} MB</small>`:`<small>${req} · ${esc(hint)}</small>`;
+  return `<div class="slot"><span class="code">${k}</span><div class="nm"><b>${esc(name)}</b>${info}</div>
+    <span><input type="file" id="file-${k}" data-file="${k}" accept="${accept}"><label class="btn sm ${f&&!f.err?"ghost":""}" for="file-${k}">${f&&!f.err?"Replace":"Upload"}</label></span></div>`;
+}
+function readWiz(){
+  const d=RS.draft,v=id=>document.getElementById(id);
+  if(RS.step===0&&v("w-name")) Object.assign(d,{name:v("w-name").value.trim(),style:v("w-style").value,storeys:v("w-storeys").value,fa:v("w-fa").value,lotW:v("w-lotW").value,lotD:v("w-lotD").value,beds:v("w-beds").value,baths:v("w-baths").value,firewall:v("w-fw").checked,desc:v("w-desc").value.trim()});
+  if(RS.step===1&&v("w-t1")){d.t1=v("w-t1").value;d.offerT2=v("w-offer").checked;if(v("w-t2"))d.t2=v("w-t2").value;}
+  if(RS.step===3) document.querySelectorAll("[data-sn]").forEach(i=>{const k=i.dataset.sn;d.signers[k]=d.signers[k]||{};if(!d.signers[k].self){d.signers[k].name=i.value.trim();d.signers[k].prc=document.querySelector(`[data-sp="${k}"]`).value.trim();}});
+  if(RS.step===4&&v("w-resp")){d.own=document.querySelector("input[name=own]:checked")?.value||"";d.perm=!!v("w-perm")?.checked;d.resp=v("w-resp").checked;}
+}
+function checkStep(st){
+  const d=RS.draft;
+  if(st===0){
+    if(d.name.length<2) return "Give the plan a name.";
+    if(!d.style) return "Choose a style.";
+    if(!(+d.fa>0)) return "Enter the floor area in square meters.";
+    if(!(+d.lotW>0&&+d.lotD>0)) return "Enter the minimum lot frontage and depth in meters.";
+    if(!(+d.beds>0&&+d.baths>0)) return "Enter the number of bedrooms and toilets.";}
+  if(st===1){
+    if(!(+d.t1>=1000)) return "Set a Complete Plans price of at least ₱1,000.";
+    if(d.offerT2&&!(+d.t2>+d.t1)) return "Signed & Sealed must cost more than Complete Plans, since it includes sealing and shipping.";}
+  if(st===2){const miss=["A","S","E","P","R1","FP"].filter(k=>!d.files[k]||d.files[k].err);
+    if(miss.length) return `Upload the required files: ${miss.join(", ")}.`;}
+  if(st===3) for(const x of DISC){const sg=d.signers[x.k];const needed=x.req==="always"||(d.offerT2&&x.req==="sealed");
+    if(!needed||sg?.self) continue;
+    if(!sg?.name||sg.name.length<2) return `Name the ${x.signer.toLowerCase()} who signs the ${x.name.toLowerCase()} sheets.`;
+    if(!/^\d{5,8}$/.test(sg.prc||"")) return `Enter the PRC license number for ${sg.name}, digits only.`;}
+  if(st===4){
+    if(!d.own) return "Say whether this is your original design or a client's.";
+    if(d.own==="client"&&!d.perm) return "Confirm you have the client's written permission.";
+    if(!d.resp) return "Tick the responsibility statement to submit.";}
+  return "";
+}
+function friendlyErr(e){const m=(e?.message||String(e)).toLowerCase();
+  if(m.includes("maximum allowed size")||m.includes("too large")||m.includes("payload")) return "A file is larger than the upload limit. Compress it or split the set, then try again.";
+  if(m.includes("mime")) return "A file has the wrong type. Plan files must be PDFs; pictures must be JPG or PNG.";
+  if(m.includes("network")||m.includes("fetch")) return "The connection dropped. Check your internet and try again; files already uploaded are kept.";
+  return "That didn't save: "+(e?.message||e);}
+async function saveListing(submit){
+  readWiz();
+  const d=RS.draft,uid=ME.user.id;
+  for(const st of submit?[0,1,2,3,4]:[0,1]){const e=checkStep(st);if(e){RS.err=e;RS.step=st;scRender();return;}}
+  RS.err="";RS.busy="Saving listing details…";scRender();
+  const say=t=>{RS.busy=t;const b=document.getElementById("busyMsg");if(b)b.textContent=t;};
+  try{
+    const row={name:d.name,style:d.style,storeys:+d.storeys,floor_area:+d.fa,lot_w:+d.lotW,lot_d:+d.lotD,beds:+d.beds,baths:+d.baths,firewall:d.firewall,description:d.desc||null,
+      price_complete:Math.round(+d.t1),offers_sealed:d.offerT2,price_sealed:d.offerT2?Math.round(+d.t2):null,ownership:d.own||null,client_permission:d.own==="client"&&d.perm,responsibility:!!d.resp,status:"draft"};
+    if(d.offerT2&&!(+d.t2>+d.t1)){row.offers_sealed=false;row.price_sealed=null;}
+    let id=d.id;
+    if(id){const {error}=await sb.from("listings").update(row).eq("id",id);if(error)throw error;}
+    else{const {data,error}=await sb.from("listings").insert({...row,seller_id:ME.seller.id,slug:slugify(d.name)+"-"+Math.random().toString(36).slice(2,6)}).select("id").single();if(error)throw error;id=d.id=data.id;}
+    d.status="draft";
+    say("Saving signatories…");
+    const {error:de}=await sb.from("listing_signers").delete().eq("listing_id",id);if(de)throw de;
+    const signers=DISC.map(x=>{const sg=d.signers[x.k];if(!sg)return null;
+      return sg.self?{listing_id:id,discipline:x.k,name:selfName(),prc_no:ME.seller.prc_no,is_self:true}:(sg.name?.length>=2&&/^\d{5,8}$/.test(sg.prc||"")?{listing_id:id,discipline:x.k,name:sg.name,prc_no:sg.prc,is_self:false}:null);}).filter(Boolean)
+      .filter(r=>DISC.find(x=>x.k===r.discipline).req==="always"||d.offerT2);
+    if(signers.length){const {error}=await sb.from("listing_signers").insert(signers);if(error)throw error;}
+    const todo=Object.entries(d.files).filter(([,f])=>f.file);
+    let i=0;
+    for(const [slot,f] of todo){
+      i++;say(`Uploading ${i} of ${todo.length}: ${f.name}`);
+      const img=IMG_SLOTS.includes(slot),bucket=img?"listing-images":"plan-files";
+      const ext=(f.name.split(".").pop()||(img?"jpg":"pdf")).toLowerCase().replace(/[^a-z0-9]/g,"").slice(0,5)||(img?"jpg":"pdf");
+      const path=`${uid}/${id}/${slot}-${Date.now()}.${ext}`;
+      const {error:ue}=await sb.storage.from(bucket).upload(path,f.file,{contentType:f.file.type||(img?"image/jpeg":"application/pdf"),upsert:false});
+      if(ue)throw ue;
+      const {error:fe}=await sb.from("listing_files").upsert({listing_id:id,slot,kind:img?"image":"plan",bucket,path,file_name:f.name.slice(0,200),size_bytes:f.size},{onConflict:"listing_id,slot"});
+      if(fe)throw fe;
+      if(f.oldPath) sb.storage.from(bucket).remove([f.oldPath]);
+      d.files[slot]={name:f.name,size:f.size,path,existing:true};
+    }
+    if(submit){say("Sending for review…");const {error}=await sb.from("listings").update({status:"review"}).eq("id",id);if(error)throw error;}
+    await loadMyListings();
+    RS.busy="";RS.draft=null;RS.tab="listings";scRender();window.scrollTo(0,0);
+    toast(submit?`${d.name} was sent for review.`:`${d.name} was saved as a draft.`);
+  }catch(e){RS.busy="";RS.err=friendlyErr(e);scRender();}
+}
+function scOrders(){return `<h2>Orders</h2><div class="empty">Orders will appear here once checkout opens. Signed &amp; Sealed orders will show the buyer's sealing form and a box for the LBC tracking number.</div>`;}
+function scPayouts(){return `<h2>Payouts</h2><div class="empty">Payouts start once checkout opens. You'll set up your bank account with PayMongo, and your 80% after the payment fee is paid every Monday.</div>`;}
+function scProfile(){
+  return `<h2>Shop profile</h2><form class="panel" id="profForm" novalidate>${applyFields(ME.seller)}
+    ${ME.seller.status==="approved"?`<p class="note" style="margin-top:12px">Changing your PRC license number sends your shop back for checking.</p>`:""}
+    <p class="err-msg" role="alert" id="profErr"></p><button class="btn" type="submit">Save profile</button></form>
+    <div class="panel"><h3>Account</h3><p class="note">Signed in as ${esc(ME.user.email)}.</p><button type="button" class="btn sm ghost" style="margin-top:10px" data-signout>Sign out</button></div>`;
+}
+function bindSeller(){
+  bindAuthButtons();
+  if(!ME.user||!sb) return;
+  if(!ME.seller){bindApply();return;}
+  document.querySelectorAll("[data-sc]").forEach(b=>b.addEventListener("click",()=>{if(RS.busy)return;RS.tab=b.dataset.sc;RS.err="";RS.del=null;scRender();}));
+  if(RS.listings) bindScBody(); else loadMyListings().then(()=>{if(location.hash==="#seller-center")scRender();});
+}
+function bindScBody(){
+  const m=document.getElementById("scMain");
+  m.querySelectorAll("[data-signout]").forEach(b=>b.addEventListener("click",signOut));
+  m.querySelectorAll("[data-goto]").forEach(b=>b.addEventListener("click",()=>{RS.tab=b.dataset.goto;RS.err="";scRender();}));
+  m.querySelectorAll("[data-new]").forEach(b=>b.addEventListener("click",()=>{RS.draft=newDraft();RS.step=0;RS.err="";RS.tab="new";scRender();window.scrollTo(0,0);}));
+  m.querySelectorAll("[data-edit]").forEach(b=>b.addEventListener("click",()=>{const l=RS.listings.find(x=>x.id===b.dataset.edit);RS.draft=draftFrom(l);RS.step=0;RS.err="";RS.tab="new";scRender();window.scrollTo(0,0);}));
+  m.querySelectorAll("[data-del]").forEach(b=>b.addEventListener("click",()=>{RS.del=b.dataset.del;scRender();}));
+  m.querySelectorAll("[data-delno]").forEach(b=>b.addEventListener("click",()=>{RS.del=null;scRender();}));
+  m.querySelectorAll("[data-delyes]").forEach(b=>b.addEventListener("click",async()=>{
+    const l=RS.listings.find(x=>x.id===b.dataset.delyes);b.disabled=true;
+    const files=l.listing_files||[];
+    const {error}=await sb.from("listings").delete().eq("id",l.id);
+    if(error){toast("That didn't delete: "+error.message);b.disabled=false;return;}
+    const byB=k=>files.filter(f=>f.kind===k).map(f=>f.path);
+    if(byB("plan").length) sb.storage.from("plan-files").remove(byB("plan"));
+    if(byB("image").length) sb.storage.from("listing-images").remove(byB("image"));
+    RS.del=null;await loadMyListings();scRender();toast(`${l.name} was deleted.`);}));
+  if(RS.tab==="new"){
+    m.querySelectorAll("[data-wiz]").forEach(b=>b.addEventListener("click",()=>{
+      readWiz();const dir=+b.dataset.wiz;
+      if(dir<0){RS.step--;RS.err="";scRender();return;}
+      if(RS.step===WIZ.length-1){saveListing(true);return;}
+      RS.err=checkStep(RS.step);if(RS.err){scRender();m.querySelector(".err-msg").scrollIntoView({block:"center"});return;}
+      RS.step++;scRender();window.scrollTo(0,0);}));
+    m.querySelector("[data-save]")?.addEventListener("click",()=>saveListing(false));
+    m.querySelector("#w-offer")?.addEventListener("change",()=>{readWiz();scRender();});
+    ["t1","t2"].forEach(k=>{const i=m.querySelector("#w-"+k);if(i)i.addEventListener("input",()=>{const n=+i.value||0;const o=m.querySelector("#k-"+k);if(o)o.textContent=n?peso(keep(n)):"—";});});
+    m.querySelectorAll("input[name=own]").forEach(r=>r.addEventListener("change",()=>{readWiz();scRender();}));
+    m.querySelectorAll("[data-self]").forEach(c=>c.addEventListener("change",()=>{readWiz();const k=c.dataset.self;RS.draft.signers[k]={...(RS.draft.signers[k]||{}),self:c.checked};scRender();}));
+    m.querySelectorAll("[data-file]").forEach(inp=>inp.addEventListener("change",()=>{
+      const f=inp.files[0],k=inp.dataset.file;if(!f)return;
+      const img=inp.accept.startsWith("image"),okType=img?/^image\/(jpeg|png)$/.test(f.type):(f.type==="application/pdf"||/\.pdf$/i.test(f.name));
+      const prev=RS.draft.files[k];
+      RS.draft.files[k]=!okType?{err:`${f.name} isn't a ${img?"JPG or PNG":"PDF"}. Choose a ${img?"JPG or PNG image":"PDF file"}.`}
+        :f.size>(img?20:200)*1048576?{err:`${f.name} is larger than ${img?20:200} MB. Compress it or split the set.`}
+        :{file:f,name:f.name,size:f.size,oldPath:prev?.existing?prev.path:prev?.oldPath};
+      RS.err="";scRender();document.getElementById("file-"+k)?.nextElementSibling?.focus();}));
+  }
+  const pf=m.querySelector("#profForm");
+  if(pf){bindApplyCE();
+    pf.addEventListener("submit",async e=>{e.preventDefault();const err=pf.querySelector("#profErr");const d=readApply();const msg=checkApply(d);
+      if(msg){err.textContent=msg;return;}
+      const btn=pf.querySelector("button[type=submit]");btn.disabled=true;
+      const {error}=await sb.from("sellers").update(d).eq("id",ME.seller.id);btn.disabled=false;
+      if(error){err.textContent="That didn't save: "+error.message;return;}
+      await loadMe();route();toast("Profile saved.");});}
+}
+
+/* ================= ADMIN (live) ================= */
+const RA={tab:"overview",sellers:null,listings:null,waitlist:null,checks:{},err:""};
+const CHECKS_SELLER=["PRC license is active on the PRC's online verification","Name on the PRC record matches the applicant","Portfolio looks like the applicant's own work"];
+const CHECKS_LISTING=["All required PDFs open and match the plan name","Sheets carry the right signatory for each discipline","Architectural sheets are signed by a licensed architect","Pictures show no dimensions or title block details","Prices and minimum lot size look reasonable"];
+const SSTAT={pending:["Waiting","wait"],info:["More info asked","wait"],approved:["Approved","ok"],rejected:["Rejected","bad"]};
+async function loadAdmin(){
+  const [s,l,w]=await Promise.all([
+    sb.from("sellers").select("*").order("created_at",{ascending:true}),
+    sb.from("listings").select("*,sellers(shop_name,profession,prc_no,status),listing_files(slot,kind,bucket,path,file_name,size_bytes),listing_signers(*)").neq("status","draft").order("updated_at",{ascending:true}),
+    sb.from("waitlist").select("*").order("created_at",{ascending:false})]);
+  RA.sellers=s.data||[];RA.listings=l.data||[];RA.waitlist=w.data||[];RA.err=[s.error,l.error,w.error].find(Boolean)?.message||"";
+}
+function viewAdmin(){
+  if(!sb) return msgPage("Admin is unavailable","We can't reach the server right now.");
+  if(!ME.ready) return loadingPage();
+  if(!ME.user) return signInPrompt("Admin","Sign in to the back office","admin");
+  if(ME.profile?.role!=="admin") return msgPage("This page is for the HouseDesign.ph team","Your account doesn't have admin access.");
+  const n=RA.sellers?{sellers:RA.sellers.filter(s=>s.status==="pending").length,listings:RA.listings.filter(l=>l.status==="review").length}:{};
+  return `<div class="wrap sc-top"><div><span class="eyebrow">Admin</span><h1 style="margin-top:6px">HouseDesign.ph back office</h1></div></div>
+  <div class="wrap sc"><nav class="sc-nav" aria-label="Admin">
+    ${[["overview","Overview"],["sellers","Seller approvals"],["listings","Listing review"],["waitlist","Waitlist"],["payouts","Orders and payouts"]].map(([k,l])=>`<button type="button" data-ad="${k}" ${RA.tab===k?'aria-current="page"':""}>${l}${n[k]?`<span class="badge-n">${n[k]}</span>`:""}</button>`).join("")}
+  </nav><div class="sc-main" id="adMain">${RA.sellers?adBody():`<p class="note">Loading…</p>`}</div></div>`;
+}
+function adBody(){return (RA.err?`<p class="formcard" style="color:var(--err)">Some data didn't load: ${esc(RA.err)}</p>`:"")+({overview:adOverview,sellers:adSellers,listings:adListings,waitlist:adWaitlist,payouts:adPayouts})[RA.tab]();}
+function adRender(){const y=window.scrollY;app.innerHTML=`<div>${viewAdmin()}</div>`;bindAdmin();window.scrollTo(0,y);}
+function adOverview(){
+  const ps=RA.sellers.filter(s=>s.status==="pending"),pl=RA.listings.filter(l=>l.status==="review");
+  return `<h2>Overview</h2><div class="stats">
+    <div class="stat"><span>Sellers to approve</span><b>${ps.length}</b><small>${RA.sellers.filter(s=>s.status==="approved").length} approved</small></div>
+    <div class="stat"><span>Listings to review</span><b>${pl.length}</b><small>${RA.listings.filter(l=>l.status==="live").length} live</small></div>
+    <div class="stat"><span>Buyer waitlist</span><b>${RA.waitlist.filter(w=>w.kind==="buyer").length}</b><small>Lot owners</small></div>
+    <div class="stat"><span>Architect waitlist</span><b>${RA.waitlist.filter(w=>w.kind==="architect").length}</b><small>Not yet applied</small></div></div>
+    <div class="panel"><h3>Do these first</h3><ul class="todo">
+      ${ps.length?`<li><span>${ps.length} seller application${ps.length>1?"s":""} waiting for a PRC check</span><button type="button" class="btn sm" data-goad="sellers">Review</button></li>`:""}
+      ${pl.length?`<li><span>${pl.length} listing${pl.length>1?"s":""} waiting for review</span><button type="button" class="btn sm" data-goad="listings">Review</button></li>`:""}
+      ${!ps.length&&!pl.length?`<li class="muted">All caught up.</li>`:""}</ul></div>`;
+}
+function decisionBox(kind,id,checks,canApprove,why){
+  const ck=RA.checks[id]||[],all=checks.every((_,i)=>ck.includes(i))&&canApprove;
+  return `<div class="formcard" style="background:var(--paper)"><b>Checklist</b>
+    ${checks.map((c,i)=>`<label class="check" style="margin-top:6px;font-size:.86rem"><input type="checkbox" data-chk="${id}:${i}" ${ck.includes(i)?"checked":""}> ${c}</label>`).join("")}
+    <div class="field" style="margin-top:12px"><span>Note to the seller (required to ask for changes or reject)</span><textarea id="note-${id}" maxlength="1000" style="min-height:60px"></textarea></div>
+    <p class="err-msg" id="err-${id}" role="alert"></p>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <button type="button" class="btn sm" data-dec="${kind}:${id}:approve" ${all?"":"disabled"}>Approve</button>
+      <button type="button" class="btn sm ghost" data-dec="${kind}:${id}:back">${kind==="seller"?"Ask for more info":"Send back for changes"}</button>
+      <button type="button" class="btn sm ghost" data-dec="${kind}:${id}:reject" style="color:var(--err);border-color:var(--err)">Reject</button></div>
+    ${all?"":`<p class="hint" style="margin-top:6px">${why||"Approve unlocks once every check is ticked."}</p>`}</div>`;
+}
+function adSellers(){
+  const q=RA.sellers.filter(s=>s.status==="pending"),rest=RA.sellers.filter(s=>s.status!=="pending");
+  return `<h2>Seller approvals</h2><p class="note">Check each license on the PRC's online license verification before approving. Civil engineers may sell, but every listing must name a licensed architect for the architectural sheets.</p>
+    ${q.length?q.map(s=>`<div class="panel"><div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:start">
+      <div><h3 style="margin:0">${esc(s.shop_name)}</h3><p class="note">${esc(s.profession)} · ${esc(s.place)} · applied ${fmtD(s.created_at)}</p></div><span class="pill wait">Waiting</span></div>
+      <dl class="spec" style="margin-top:10px"><dt>PRC license no.</dt><dd>${esc(s.prc_no)}</dd><dt>About</dt><dd>${esc(s.blurb||"—")}</dd>
+      <dt>Portfolio</dt><dd>${s.portfolio&&/^https?:\/\//i.test(s.portfolio)?`<a href="${esc(s.portfolio)}" target="_blank" rel="noopener noreferrer">${esc(s.portfolio)}</a>`:esc(s.portfolio||"—")}</dd></dl>
+      ${decisionBox("seller",s.id,CHECKS_SELLER,true)}</div>`).join(""):`<div class="empty">No applications waiting.</div>`}
+    ${rest.length?`<div class="panel scroll-x"><h3>Decided</h3><table class="t"><thead><tr><th>Shop</th><th>Profession</th><th>PRC no.</th><th>Status</th><th>Note</th></tr></thead><tbody>
+      ${rest.map(s=>`<tr><td>${esc(s.shop_name)}<span class="sub">${esc(s.place)}</span></td><td>${esc(s.profession)}</td><td class="num">${esc(s.prc_no)}</td><td><span class="pill ${SSTAT[s.status][1]}">${SSTAT[s.status][0]}</span></td><td>${esc(s.admin_note||"")}</td></tr>`).join("")}</tbody></table></div>`:""}`;
+}
+const SLOTNAME={A:"Architectural",S:"Structural",E:"Electrical",P:"Plumbing and sanitary",M:"Mechanical",O:"Other documents",R1:"Exterior perspective",R2:"Living and dining",R3:"Kitchen",R4:"Bedroom",R5:"More renders",FP:"Floor plan image"};
+function adListings(){
+  const q=RA.listings.filter(l=>l.status==="review"),rest=RA.listings.filter(l=>l.status!=="review");
+  return `<h2>Listing review</h2><p class="note">Open every PDF before approving. Approved listings appear on the site right away.</p>
+    ${q.length?q.map(l=>{const sOk=l.sellers?.status==="approved";
+      return `<div class="panel"><div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:start">
+      <div><h3 style="margin:0">${esc(l.name)}</h3><p class="note">${esc(l.sellers?.shop_name||"")} · ${esc(l.style)} · ${l.storeys}-storey · ${l.floor_area} sqm · lot ${l.lot_w} × ${l.lot_d} m · updated ${fmtD(l.updated_at)}</p></div><span class="pill wait">In review</span></div>
+      <dl class="spec" style="margin-top:10px"><dt>Complete Plans</dt><dd>${peso(l.price_complete)}</dd><dt>Signed &amp; Sealed</dt><dd>${l.offers_sealed?peso(l.price_sealed):"Not offered"}</dd>
+        <dt>Ownership</dt><dd>${l.ownership==="client"?"Client's design, permission confirmed":l.ownership==="original"?"Original design":"Not stated"}</dd>
+        <dt>Signatories</dt><dd>${(l.listing_signers||[]).map(s=>`${esc(SLOTNAME[s.discipline])}: ${esc(s.name)} (PRC ${esc(s.prc_no)})`).join("<br>")||"None"}</dd>
+        ${l.description?`<dt>Description</dt><dd>${esc(l.description)}</dd>`:""}</dl>
+      <div class="slots" style="margin-top:12px">${(l.listing_files||[]).sort((a,b)=>Object.keys(SLOTNAME).indexOf(a.slot)-Object.keys(SLOTNAME).indexOf(b.slot)).map(f=>`<div class="slot"><span class="code">${f.slot}</span><div class="nm"><b>${SLOTNAME[f.slot]}</b><small>${esc(f.file_name)} · ${(f.size_bytes/1048576).toFixed(1)} MB</small></div><button type="button" class="btn sm ghost" data-open="${f.bucket}|${esc(f.path)}">Open</button></div>`).join("")}</div>
+      ${decisionBox("listing",l.id,CHECKS_LISTING,sOk,sOk?"":"Approve the seller's shop first.")}</div>`;}).join(""):`<div class="empty">No listings waiting for review.</div>`}
+    ${rest.length?`<div class="panel scroll-x"><h3>Decided</h3><table class="t"><thead><tr><th>Plan</th><th>Shop</th><th>Status</th><th>Note</th></tr></thead><tbody>
+      ${rest.map(l=>`<tr><td>${l.status==="live"?`<a class="lnk" href="#plan-${esc(l.slug)}">${esc(l.name)}</a>`:esc(l.name)}</td><td>${esc(l.sellers?.shop_name||"")}</td><td><span class="pill ${LSTAT[l.status][1]}">${LSTAT[l.status][0]}</span></td><td>${esc(l.admin_note||"")}</td></tr>`).join("")}</tbody></table></div>`:""}`;
+}
+function adWaitlist(){
+  const W=RA.waitlist;
+  return `<div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap"><h2>Waitlist</h2>${W.length?`<button type="button" class="btn sm ghost" id="copyEmails">Copy all emails</button>`:""}</div>
+    ${W.length?`<div class="panel scroll-x" style="padding:6px 22px"><table class="t"><thead><tr><th>Name</th><th>Email</th><th>Type</th><th>Details</th><th>Joined</th></tr></thead><tbody>
+    ${W.map(w=>`<tr><td>${esc(w.name)}</td><td>${esc(w.email)}</td><td>${w.kind==="buyer"?"Lot owner":"Architect"}</td><td>${w.kind==="buyer"?`${esc(w.place||"")}${w.lot_w?` · lot ${w.lot_w} × ${w.lot_d||"?"} m`:""}`:`PRC ${esc(w.prc_no||"—")}${w.plans!=null?` · ${w.plans} plans`:""}`}</td><td class="num">${fmtD(w.created_at)}</td></tr>`).join("")}</tbody></table></div>`:`<div class="empty">No sign-ups yet.</div>`}
+    <textarea id="emailList" class="sr" readonly hidden>${esc(W.map(w=>w.email).join(", "))}</textarea>`;
+}
+function adPayouts(){return `<h2>Orders and payouts</h2><div class="empty">Orders, held payments and the Monday payout run appear here once PayMongo checkout is connected in Stage 3.</div>`;}
+function bindAdmin(){
+  bindAuthButtons();
+  if(ME.profile?.role!=="admin") return;
+  if(!RA.sellers){loadAdmin().then(()=>{if(location.hash==="#admin")adRender();});return;}
+  document.querySelectorAll("[data-ad]").forEach(b=>b.addEventListener("click",()=>{RA.tab=b.dataset.ad;adRender();window.scrollTo(0,0);}));
+  document.querySelectorAll("[data-goad]").forEach(b=>b.addEventListener("click",()=>{RA.tab=b.dataset.goad;adRender();window.scrollTo(0,0);}));
+  document.querySelectorAll("[data-chk]").forEach(c=>c.addEventListener("change",()=>{
+    const [id,i]=c.dataset.chk.split(":");const cur=RA.checks[id]||[];
+    RA.checks[id]=c.checked?[...new Set([...cur,+i])]:cur.filter(x=>x!==+i);
+    const panel=c.closest(".panel"),kind=panel.querySelector("[data-dec]").dataset.dec.split(":")[0];
+    const list=kind==="seller"?CHECKS_SELLER:CHECKS_LISTING;const ok=list.every((_,j)=>RA.checks[id].includes(j));
+    const ap=panel.querySelector(`[data-dec$=":approve"]`);
+    const sOk=kind==="seller"||RA.listings.find(l=>l.id===id)?.sellers?.status==="approved";
+    ap.disabled=!(ok&&sOk);}));
+  document.querySelectorAll("[data-dec]").forEach(b=>b.addEventListener("click",async()=>{
+    const [kind,id,act]=b.dataset.dec.split(":"),note=document.getElementById("note-"+id).value.trim(),err=document.getElementById("err-"+id);
+    if(act!=="approve"&&!note){err.textContent="Write a note so the seller knows what to fix.";document.getElementById("note-"+id).focus();return;}
+    b.disabled=true;
+    const status=kind==="seller"?{approve:"approved",back:"info",reject:"rejected"}[act]:{approve:"live",back:"changes",reject:"rejected"}[act];
+    const {error}=await sb.from(kind==="seller"?"sellers":"listings").update({status,admin_note:note||null}).eq("id",id);
+    if(error){err.textContent="That didn't save: "+error.message;b.disabled=false;return;}
+    await loadAdmin();adRender();
+    if(kind==="listing"&&act==="approve") loadLive();
+    toast(act==="approve"?"Approved.":act==="back"?"Sent back with your note.":"Rejected with your note.");}));
+  document.querySelectorAll("[data-open]").forEach(b=>b.addEventListener("click",async()=>{
+    const [bucket,path]=b.dataset.open.split("|");
+    if(bucket==="listing-images"){window.open(imgURL(path),"_blank","noopener");return;}
+    const w=window.open("","_blank");
+    const {data,error}=await sb.storage.from("plan-files").createSignedUrl(path,300);
+    if(error||!data){w?.close();toast("That file couldn't be opened: "+(error?.message||""));return;}
+    if(w) w.location=data.signedUrl; else location.href=data.signedUrl;}));
+  document.getElementById("copyEmails")?.addEventListener("click",async e=>{
+    const t=document.getElementById("emailList").value;
+    try{await navigator.clipboard.writeText(t);toast("Emails copied.");}catch(_){toast("Copy didn't work. Select the emails from the table instead.");}});
+}
+
+/* auth events: confirmations, password recovery, sign-in in another tab */
+sb?.auth.onAuthStateChange(ev=>{setTimeout(async()=>{
+  if(ev==="PASSWORD_RECOVERY"){await loadMe();location.hash="reset-password";return;}
+  if(ev==="SIGNED_IN"||ev==="SIGNED_OUT"||ev==="USER_UPDATED"){
+    const was=ME.user?.id;await loadMe();
+    if(was!==ME.user?.id){RS.listings=null;RA.sellers=null;if(["seller-center","admin","sign-in"].includes(location.hash.slice(1)))route();}
+  }},0);});
+
+const STYLE_CHOICES=["Modern Tropical","Contemporary","Minimalist","Modern Filipino","Mediterranean"];
+
+/* ---------- router ---------- */
+function route(){
+  let h=(location.hash||"#home").slice(1);
+  if(/access_token=|error_description=|type=recovery|type=signup/.test(h)){
+    const em=new URLSearchParams(h).get("error_description"); if(em) setTimeout(()=>toast(em.replace(/\+/g," ")),0);
+    h="home";
+  }
+  let html,after=()=>{},nav=h;
+  if(h.startsWith("plan-")){const p=PLANS.find(x=>"plan-"+x.slug===h);
+    if(p){html=viewPlan(p);after=()=>bindPlan(p);nav="browse";document.title=`${p.name} · HouseDesign.ph`;}
+    else if(!REAL_LOADED){html=loadingPage();nav="browse";}}
+  if(!html){
+    nav={browse:"browse","how-it-works":"how-it-works",sell:"sell",waitlist:"waitlist","seller-center":"seller-center",admin:"admin","sign-in":"sign-in","reset-password":"reset-password"}[h]||"home";
+    html={home:viewHome,browse:viewBrowse,"how-it-works":viewHow,sell:viewSell,waitlist:viewWaitlist,"seller-center":viewSeller,admin:viewAdmin,"sign-in":viewSignIn,"reset-password":viewReset}[nav]();
+    after={home:bindHome,browse:bindBrowse,"how-it-works":()=>{},sell:()=>{bindCalc();bindForms();},waitlist:bindForms,"seller-center":bindSeller,admin:bindAdmin,"sign-in":bindSignIn,"reset-password":bindReset}[nav];
+    document.title=nav==="home"?"HouseDesign.ph | House Plans from PRC-Licensed Filipino Architects":"HouseDesign.ph";
+  }
+  app.innerHTML=`<div class="fade">${html}</div>`; after();
+  document.querySelectorAll("[data-nav]").forEach(a=>a.toggleAttribute("aria-current",a.dataset.nav===nav)&&a.setAttribute("aria-current","page"));
+  document.getElementById("mainNav").classList.remove("open"); document.getElementById("menuBtn").setAttribute("aria-expanded","false");
+}
+function render(){route();}
+function bindHome(){
+  bindFeatured();
+  document.getElementById("homeSearch").addEventListener("submit",e=>{e.preventDefault();state.studio="";
+    state.style=document.getElementById("hs-style").value;state.lot=document.getElementById("hs-lot").value;state.storeys=document.getElementById("hs-storeys").value;
+    if(location.hash==="#browse") route(); else location.hash="browse";});
+}
+document.addEventListener("click",e=>{const a=e.target.closest("a[data-style],a[data-firewall],a[data-studio]");if(!a)return;
+  Object.assign(state,{style:a.dataset.style||"",firewall:!!a.dataset.firewall,studio:a.dataset.studio||"",lot:"",storeys:"",beds:"",lotW:"",lotD:""});
+  if(a.getAttribute("href")===location.hash){e.preventDefault();route();window.scrollTo(0,0);}});
+window.addEventListener("hashchange",()=>{route();window.scrollTo(0,0);});
+document.getElementById("navSignOut").addEventListener("click",signOut);
+document.getElementById("menuBtn").addEventListener("click",e=>{const n=document.getElementById("mainNav");const o=n.classList.toggle("open");e.currentTarget.setAttribute("aria-expanded",o);});
+(async()=>{
+  route();
+  await loadMe();
+  const h=location.hash.slice(1);
+  if(["seller-center","admin","sign-in","reset-password"].includes(h)) route();
+  await loadLive();
+  const h2=location.hash.slice(1);
+  if(REAL_LOADED&&(h2===""||h2==="home"||h2==="browse"||h2.startsWith("plan-"))) route();
+})();
+</script>
+
+</body>
+</html>
