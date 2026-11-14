@@ -11,7 +11,8 @@
 <meta property="og:url" content="https://housedesign.ph/">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#FAF8F5">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231A1A1A'/%3E%3Cpath d='M14 34 32 18l18 16v16H14z' fill='none' stroke='%23B5945B' stroke-width='4' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap">
@@ -74,8 +75,10 @@ button,input,select{font:inherit;letter-spacing:inherit;color:inherit}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
 header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 header.top .wrap{display:flex;align-items:center;gap:24px;padding-block:14px}
-.logo{font-family:var(--display);font-weight:600;font-size:1.3rem;letter-spacing:.15em;text-decoration:none;white-space:nowrap}
-.logo span{color:var(--gold)}
+.logo{display:inline-flex;align-items:stretch;border:1.5px solid currentColor;color:var(--ink);text-decoration:none;white-space:nowrap;flex:none}
+.lg-cell{background:#B5945B;display:grid;place-items:center;padding:4px 7px;border-right:1.5px solid currentColor}
+.lg-word{font-family:var(--display);font-weight:600;font-size:1.12rem;letter-spacing:.14em;line-height:1;padding:9px 11px 7px;display:flex;align-items:center}
+@media (max-width:380px){.lg-word{font-size:.98rem;letter-spacing:.1em;padding-inline:8px}}
 nav.main{display:flex;gap:22px;margin-left:auto;font-size:.86rem}
 nav.main a{text-decoration:none;color:var(--ink-2);padding-block:4px;border-bottom:1px solid transparent}
 nav.main a:hover,nav.main a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--gold)}
@@ -416,7 +419,7 @@ table.t td .sub{display:block;font-size:.78rem;color:var(--ink-2)}
 
 <header class="top">
   <div class="wrap" style="position:relative">
-    <a class="logo" href="#home">HOUSEDESIGN<span>.</span>PH</a>
+    <a class="logo" href="#home" aria-label="HouseDesign.ph home"><span class="lg-cell"><svg viewBox="0 0 64 64" width="26" height="26" fill="none" aria-hidden="true"><path d="M26 56H8V8H56V56H40" stroke="#1A1A1A" stroke-width="5" stroke-linecap="square"/><path d="M32 8V28M32 28H44" stroke="#1A1A1A" stroke-width="3" stroke-linecap="square"/><path d="M26 56V42" stroke="#1A1A1A" stroke-width="3.4" stroke-linecap="square"/><path d="M26 42A14 14 0 0 1 40 56" stroke="#1A1A1A" stroke-width="3"/></svg></span><span class="lg-word">HOUSEDESIGN.PH</span></a>
     <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav">Menu</button>
     <nav class="main" id="mainNav" aria-label="Main">
       <a href="#browse" data-nav="browse">Browse plans</a>
@@ -437,7 +440,7 @@ table.t td .sub{display:block;font-size:.78rem;color:var(--ink-2)}
 <footer>
   <div class="wrap cols">
     <div>
-      <a class="logo" href="#home" style="color:var(--band-ink)">HOUSEDESIGN<span>.</span>PH</a>
+      <a class="logo" href="#home" aria-label="HouseDesign.ph home" style="color:var(--band-ink)"><span class="lg-cell"><svg viewBox="0 0 64 64" width="26" height="26" fill="none" aria-hidden="true"><path d="M26 56H8V8H56V56H40" stroke="#1A1A1A" stroke-width="5" stroke-linecap="square"/><path d="M32 8V28M32 28H44" stroke="#1A1A1A" stroke-width="3" stroke-linecap="square"/><path d="M26 56V42" stroke="#1A1A1A" stroke-width="3.4" stroke-linecap="square"/><path d="M26 42A14 14 0 0 1 40 56" stroke="#1A1A1A" stroke-width="3"/></svg></span><span class="lg-word">HOUSEDESIGN.PH</span></a>
       <p style="margin-top:12px;font-size:.86rem;color:color-mix(in srgb,var(--band-ink) 70%,transparent);max-width:34ch">The online marketplace for Filipino house plans, sold by PRC-licensed architects.</p>
     </div>
     <div><h5>For lot owners</h5><ul>
@@ -450,7 +453,6 @@ table.t td .sub{display:block;font-size:.78rem;color:var(--ink-2)}
       <li><a href="#sell">Open a seller shop</a></li>
       <li><a href="#seller-center">Seller Center</a></li>
       <li><a href="#sell">PRC verification</a></li>
-      <li><a href="#sell">Fees and payouts (20%)</a></li>
     </ul></div>
     <div><h5>Legal and support</h5><ul>
       <li><a href="#how-it-works">Refund policy</a></li>
@@ -731,13 +733,13 @@ function viewHome(){
   <section class="band"><div class="wrap band-grid">
     <div><span class="eyebrow">For PRC-licensed architects</span>
       <h2 style="margin-top:10px">Earn from the plans you've already drawn.</h2>
-      <p class="muted" style="margin-top:16px;max-width:52ch">Open your own shop, set your own prices, and keep 80% of every sale after the payment fee. Payouts go straight to your bank every Monday.</p>
+      <p class="muted" style="margin-top:16px;max-width:52ch">Open your own shop, set your own prices, and get paid straight to your bank every Monday.</p>
       <div style="margin-top:26px;display:flex;gap:12px;flex-wrap:wrap"><a class="btn gold" href="#sell">Apply as a pioneer seller</a></div></div>
-    <div class="split" aria-label="Example split on a ₱100,000 sale">
-      <div class="row"><span>Buyer pays</span><span>₱100,000</span></div>
-      <div class="row"><span>Payment fee (example, 3%)</span><span>− ₱3,000</span></div>
-      <div class="row hl"><span>You receive, 80%</span><span>₱77,600</span></div>
-      <div class="row"><span>Platform, 20%</span><span>₱19,400</span></div>
+    <div class="split" aria-label="What sellers get">
+      <div class="row"><span>Your shop, your prices</span><span>✓</span></div>
+      <div class="row"><span>Files locked until the buyer pays</span><span>✓</span></div>
+      <div class="row"><span>PRC-Verified badge</span><span>✓</span></div>
+      <div class="row hl"><span>Payouts every Monday</span><span>✓</span></div>
     </div>
   </div></section>`;
 }
@@ -970,15 +972,7 @@ function viewSell(){
       </tbody></table></div>
     </div>
     <div style="display:flex;flex-direction:column;gap:28px">
-      <div class="calc" aria-labelledby="calcTitle">
-        <h3 id="calcTitle">What you keep from a sale</h3>
-        <div class="inputs">
-          <label class="field"><span>Sale price (₱)</span><input type="number" id="c-price" min="0" step="500" value="18000" inputmode="numeric"></label>
-          <label class="field"><span>Payment fee (%)</span><input type="number" id="c-fee" min="0" max="10" step="0.1" value="3" inputmode="decimal"></label>
-        </div>
-        <div class="out" id="c-out"></div>
-        <p class="hint">The fee shown is an example. PayMongo's real rate depends on how the buyer pays. You keep 80% of what remains after the fee.</p>
-      </div>
+      <div class="panel"><h3>Fees</h3><p class="note" style="margin-top:6px">Selling fees and payout amounts are shown in the Seller Center after you create an account.</p><p style="margin-top:12px"><a class="btn sm ghost" href="#seller-center">Open the Seller Center</a></p></div>
       ${joinForm("architect")}
     </div>
   </div></section>`;
@@ -1428,7 +1422,15 @@ async function saveListing(submit){
   }catch(e){RS.busy="";RS.err=friendlyErr(e);scRender();}
 }
 function scOrders(){return `<h2>Orders</h2><div class="empty">Orders will appear here once checkout opens. Signed &amp; Sealed orders will show the buyer's sealing form and a box for the LBC tracking number.</div>`;}
-function scPayouts(){return `<h2>Payouts</h2><div class="empty">Payouts start once checkout opens. You'll set up your bank account with PayMongo, and your 80% after the payment fee is paid every Monday.</div>`;}
+function scPayouts(){return `<h2>Payouts</h2><div class="calc" aria-labelledby="calcTitle">
+        <h3 id="calcTitle">What you keep from a sale</h3>
+        <div class="inputs">
+          <label class="field"><span>Sale price (₱)</span><input type="number" id="c-price" min="0" step="500" value="18000" inputmode="numeric"></label>
+          <label class="field"><span>Payment fee (%)</span><input type="number" id="c-fee" min="0" max="10" step="0.1" value="3" inputmode="decimal"></label>
+        </div>
+        <div class="out" id="c-out"></div>
+        <p class="hint">The fee shown is an example. PayMongo's real rate depends on how the buyer pays. You keep 80% of what remains after the fee.</p>
+      </div><div class="empty">Payouts start once checkout opens. You'll set up your bank account with PayMongo, and your 80% after the payment fee is paid every Monday.</div>`;}
 function scProfile(){
   return `<h2>Shop profile</h2><form class="panel" id="profForm" novalidate>${applyFields(ME.seller)}
     ${ME.seller.status==="approved"?`<p class="note" style="margin-top:12px">Changing your PRC license number sends your shop back for checking.</p>`:""}
@@ -1480,6 +1482,7 @@ function bindScBody(){
         :{file:f,name:f.name,size:f.size,oldPath:prev?.existing?prev.path:prev?.oldPath};
       RS.err="";scRender();document.getElementById("file-"+k)?.nextElementSibling?.focus();}));
   }
+  if(m.querySelector("#c-price")) bindCalc();
   const pf=m.querySelector("#profForm");
   if(pf){bindApplyCE();
     pf.addEventListener("submit",async e=>{e.preventDefault();const err=pf.querySelector("#profErr");const d=readApply();const msg=checkApply(d);
@@ -1634,7 +1637,7 @@ function route(){
   if(!html){
     nav={browse:"browse","how-it-works":"how-it-works",sell:"sell",waitlist:"waitlist","seller-center":"seller-center",admin:"admin","sign-in":"sign-in","reset-password":"reset-password"}[h]||"home";
     html={home:viewHome,browse:viewBrowse,"how-it-works":viewHow,sell:viewSell,waitlist:viewWaitlist,"seller-center":viewSeller,admin:viewAdmin,"sign-in":viewSignIn,"reset-password":viewReset}[nav]();
-    after={home:bindHome,browse:bindBrowse,"how-it-works":()=>{},sell:()=>{bindCalc();bindForms();},waitlist:bindForms,"seller-center":bindSeller,admin:bindAdmin,"sign-in":bindSignIn,"reset-password":bindReset}[nav];
+    after={home:bindHome,browse:bindBrowse,"how-it-works":()=>{},sell:bindForms,waitlist:bindForms,"seller-center":bindSeller,admin:bindAdmin,"sign-in":bindSignIn,"reset-password":bindReset}[nav];
     document.title=nav==="home"?"HouseDesign.ph | House Plans from PRC-Licensed Filipino Architects":"HouseDesign.ph";
   }
   app.innerHTML=`<div class="fade">${html}</div>`; after();
